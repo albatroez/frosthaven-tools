@@ -26,7 +26,7 @@ async function renameFiles(directoryPath, parentDirName) {
 const rootDirectory = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/public";
 // await renameFiles(rootDirectory);
 
-const dataPath = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/src/data/classes";
+const dataPath = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/src/data/test-cards";
 async function createClassFiles(directoryPath, source) {
     const names = await readdir(source);
 
@@ -39,8 +39,8 @@ async function copyNonDuplicates() {
     const names = await readdir(rootDirectory);
     const files = await readdir(dataPath);
 
-    for (const file of files) {
-        const index = files.indexOf(file);
+    for (const name of names) {
+        const index = names.indexOf(name);
         const cards = abilityCards.filter(card => card.image.includes(names[index] + "/"));
         const uniqueCards = cards.reduce((acc, curr) => {
             if (acc.some(card => card.cardno === curr.cardno)) {
@@ -48,9 +48,10 @@ async function copyNonDuplicates() {
             }
             return [...acc, curr];
         }, []);
+        const enrichedCards = uniqueCards.map((card) => ({...card, levelNo: card.level === 'X' ? 1 : Number(card.level)}))
         await writeFile(
             path.join(dataPath, names[index] + ".ts"),
-            `export const ${names[index]} = ${JSON.stringify(uniqueCards)} as const;`,
+            `export const ${names[index]} = ${JSON.stringify(enrichedCards)} as const;`,
         );
     }
 }

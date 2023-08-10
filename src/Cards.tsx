@@ -2,7 +2,14 @@ import { capitalizeFirstWord } from "./utils/formatNames";
 import { Card } from "./Card";
 import { useAppDispatch, useAppSelector } from "./app/hooks";
 import { AbilityCard } from "./data/ability-cards";
-import { selectAvailableCards, selectCurrentClass, setSortType, SORT_TYPES } from "./app/cardsSlice";
+import {
+    selectAvailableCards,
+    selectCurrentClass,
+    selectCurrentLevel,
+    setCurrentLevel,
+    setSortType,
+    SORT_TYPES,
+} from "./app/cardsSlice";
 
 function sortAbilityCards(cards: AbilityCard[], sortType: string): AbilityCard[] {
     switch (sortType) {
@@ -36,19 +43,41 @@ export function Cards() {
     const dispatch = useAppDispatch();
     const currentClass = useAppSelector(selectCurrentClass);
     const availableCards = useAppSelector(selectAvailableCards);
+    const level = useAppSelector(selectCurrentLevel);
     const sortType = useAppSelector(state => state.cards.sortType);
-    const sortedCards = sortAbilityCards(availableCards, sortType);
+    const filteredCards = availableCards.filter((card) => Number(card.level) <= level)
+    const sortedCards = sortAbilityCards(filteredCards, sortType);
 
     return (
         <>
             <select value={sortType} onChange={e => dispatch(setSortType(e.currentTarget.value))}>
-                {Object.values(SORT_TYPES).map(type => (<option value={type} key={type}>{type}</option>))}
+                {Object.values(SORT_TYPES).map(type => (
+                    <option value={type} key={type}>
+                        {type}
+                    </option>
+                ))}
             </select>
+            <Level />
             <div className='flex-wrap'>
                 {sortedCards.map(card => (
                     <Card key={card.points} alt={`${capitalizeFirstWord(currentClass)} ${card.name}`} card={card} />
                 ))}
             </div>
         </>
+    );
+}
+
+function Level() {
+    const dispatch = useAppDispatch();
+    const level = useAppSelector(selectCurrentLevel);
+
+    return (
+        <select value={level} onChange={e => dispatch(setCurrentLevel(e.currentTarget.value))}>
+            {Array.from({ length: 9 }, (_, k) => (
+                <option value={k + 1} key={`${k + 1}-level`}>
+                    {k + 1}
+                </option>
+            ))}
+        </select>
     );
 }
