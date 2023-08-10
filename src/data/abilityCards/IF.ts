@@ -1,15 +1,5 @@
 export const IF = [
     {
-        name: "if-back",
-        points: 964,
-        expansion: "Frosthaven",
-        image: "IF/fh-if-back.png",
-        xws: "ifback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "ancient rites of power",
         points: 965,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const IF = [
         level: "9",
         initiative: "94",
         cardno: "213",
+        levelNo: 9,
     },
     {
         name: "battle prowess",
@@ -28,6 +19,7 @@ export const IF = [
         level: "X",
         initiative: "78",
         cardno: "197",
+        levelNo: 1,
     },
     {
         name: "boon of the tempest",
@@ -38,6 +30,7 @@ export const IF = [
         level: "1",
         initiative: "28",
         cardno: "185",
+        levelNo: 1,
     },
     {
         name: "bounty of the earth",
@@ -48,6 +41,7 @@ export const IF = [
         level: "1",
         initiative: "23",
         cardno: "186",
+        levelNo: 1,
     },
     {
         name: "caress of the night",
@@ -58,6 +52,7 @@ export const IF = [
         level: "1",
         initiative: "87",
         cardno: "187",
+        levelNo: 1,
     },
     {
         name: "coalescing darkness",
@@ -68,6 +63,7 @@ export const IF = [
         level: "4",
         initiative: "85",
         cardno: "203",
+        levelNo: 4,
     },
     {
         name: "crystalline aegis",
@@ -78,6 +74,7 @@ export const IF = [
         level: "X",
         initiative: "17",
         cardno: "198",
+        levelNo: 1,
     },
     {
         name: "desperate throw",
@@ -88,6 +85,7 @@ export const IF = [
         level: "4",
         initiative: "16",
         cardno: "204",
+        levelNo: 4,
     },
     {
         name: "diamondization",
@@ -98,6 +96,7 @@ export const IF = [
         level: "7",
         initiative: "10",
         cardno: "209",
+        levelNo: 7,
     },
     {
         name: "emerald edge",
@@ -108,6 +107,7 @@ export const IF = [
         level: "1",
         initiative: "70",
         cardno: "189",
+        levelNo: 1,
     },
     {
         name: "formless bladestorm",
@@ -118,6 +118,7 @@ export const IF = [
         level: "1",
         initiative: "33",
         cardno: "188",
+        levelNo: 1,
     },
     {
         name: "gale barrage",
@@ -128,6 +129,7 @@ export const IF = [
         level: "6",
         initiative: "44",
         cardno: "208",
+        levelNo: 6,
     },
     {
         name: "gemstone resonance",
@@ -138,6 +140,7 @@ export const IF = [
         level: "5",
         initiative: "30",
         cardno: "205",
+        levelNo: 5,
     },
     {
         name: "guide the flow",
@@ -148,6 +151,7 @@ export const IF = [
         level: "3",
         initiative: "35",
         cardno: "202",
+        levelNo: 3,
     },
     {
         name: "imbue with life",
@@ -158,6 +162,7 @@ export const IF = [
         level: "X",
         initiative: "42",
         cardno: "196",
+        levelNo: 1,
     },
     {
         name: "malachite shockwave",
@@ -168,6 +173,7 @@ export const IF = [
         level: "7",
         initiative: "68",
         cardno: "210",
+        levelNo: 7,
     },
     {
         name: "obsidian spear",
@@ -178,6 +184,7 @@ export const IF = [
         level: "5",
         initiative: "84",
         cardno: "206",
+        levelNo: 5,
     },
     {
         name: "onyx shards",
@@ -188,6 +195,7 @@ export const IF = [
         level: "1",
         initiative: "20",
         cardno: "191",
+        levelNo: 1,
     },
     {
         name: "propulsive tailwind",
@@ -198,6 +206,7 @@ export const IF = [
         level: "6",
         initiative: "91",
         cardno: "207",
+        levelNo: 6,
     },
     {
         name: "reinforced riposte",
@@ -208,6 +217,7 @@ export const IF = [
         level: "3",
         initiative: "18",
         cardno: "201",
+        levelNo: 3,
     },
     {
         name: "remote impact",
@@ -218,6 +228,7 @@ export const IF = [
         level: "2",
         initiative: "72",
         cardno: "200",
+        levelNo: 2,
     },
     {
         name: "rising momentum",
@@ -228,6 +239,7 @@ export const IF = [
         level: "1",
         initiative: "25",
         cardno: "194",
+        levelNo: 1,
     },
     {
         name: "sky-splitting strike",
@@ -238,6 +250,7 @@ export const IF = [
         level: "9",
         initiative: "50",
         cardno: "214",
+        levelNo: 9,
     },
     {
         name: "slashing cyclone",
@@ -248,6 +261,7 @@ export const IF = [
         level: "1",
         initiative: "14",
         cardno: "193",
+        levelNo: 1,
     },
     {
         name: "stoic vigilance",
@@ -258,6 +272,7 @@ export const IF = [
         level: "1",
         initiative: "12",
         cardno: "195",
+        levelNo: 1,
     },
     {
         name: "swift pivot",
@@ -268,6 +283,7 @@ export const IF = [
         level: "8",
         initiative: "08",
         cardno: "212",
+        levelNo: 8,
     },
     {
         name: "torrential cleave",
@@ -278,6 +294,7 @@ export const IF = [
         level: "1",
         initiative: "83",
         cardno: "190",
+        levelNo: 1,
     },
     {
         name: "unstoppable impulse",
@@ -288,6 +305,7 @@ export const IF = [
         level: "1",
         initiative: "56",
         cardno: "192",
+        levelNo: 1,
     },
     {
         name: "untether the shackles",
@@ -298,6 +316,7 @@ export const IF = [
         level: "8",
         initiative: "61",
         cardno: "211",
+        levelNo: 8,
     },
     {
         name: "veil of protection",
@@ -308,5 +327,6 @@ export const IF = [
         level: "2",
         initiative: "47",
         cardno: "199",
+        levelNo: 2,
     },
 ] as const;

@@ -18,4 +18,4 @@ export const allClasses = {
     TA: { name: "Trapper" },
 } as const;
 
-export type ClassesEnum = keyof typeof allClasses
+export type ClassesEnum = keyof typeof allClasses;

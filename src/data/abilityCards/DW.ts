@@ -1,15 +1,5 @@
 export const DW = [
     {
-        name: "dw-back",
-        points: 823,
-        expansion: "Frosthaven",
-        image: "DW/fh-dw-back.png",
-        xws: "dwback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "anger of the dead",
         points: 824,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const DW = [
         level: "1",
         initiative: "14",
         cardno: "091",
+        levelNo: 1,
     },
     {
         name: "black barrage",
@@ -28,6 +19,7 @@ export const DW = [
         level: "1",
         initiative: "28",
         cardno: "095",
+        levelNo: 1,
     },
     {
         name: "black lance",
@@ -38,6 +30,7 @@ export const DW = [
         level: "9",
         initiative: "16",
         cardno: "119",
+        levelNo: 9,
     },
     {
         name: "call of doom",
@@ -48,6 +41,7 @@ export const DW = [
         level: "1",
         initiative: "32",
         cardno: "096",
+        levelNo: 1,
     },
     {
         name: "call to the abyss",
@@ -58,6 +52,7 @@ export const DW = [
         level: "1",
         initiative: "82",
         cardno: "090",
+        levelNo: 1,
     },
     {
         name: "dark fog",
@@ -68,6 +63,7 @@ export const DW = [
         level: "1",
         initiative: "46",
         cardno: "094",
+        levelNo: 1,
     },
     {
         name: "dead bolt",
@@ -78,6 +74,7 @@ export const DW = [
         level: "3",
         initiative: "88",
         cardno: "106",
+        levelNo: 3,
     },
     {
         name: "deepening despair",
@@ -88,6 +85,7 @@ export const DW = [
         level: "2",
         initiative: "11",
         cardno: "105",
+        levelNo: 2,
     },
     {
         name: "dominate",
@@ -98,6 +96,7 @@ export const DW = [
         level: "5",
         initiative: "29",
         cardno: "111",
+        levelNo: 5,
     },
     {
         name: "eclipse",
@@ -108,6 +107,7 @@ export const DW = [
         level: "1",
         initiative: "86",
         cardno: "097",
+        levelNo: 1,
     },
     {
         name: "fleeting dusk",
@@ -118,6 +118,7 @@ export const DW = [
         level: "4",
         initiative: "36",
         cardno: "108",
+        levelNo: 4,
     },
     {
         name: "fluid night",
@@ -128,6 +129,7 @@ export const DW = [
         level: "1",
         initiative: "24",
         cardno: "093",
+        levelNo: 1,
     },
     {
         name: "forceful spirits",
@@ -138,6 +140,7 @@ export const DW = [
         level: "X",
         initiative: "34",
         cardno: "102",
+        levelNo: 1,
     },
     {
         name: "frozen in fear",
@@ -148,6 +151,7 @@ export const DW = [
         level: "8",
         initiative: "21",
         cardno: "117",
+        levelNo: 8,
     },
     {
         name: "hungry grasps",
@@ -158,6 +162,7 @@ export const DW = [
         level: "7",
         initiative: "25",
         cardno: "115",
+        levelNo: 7,
     },
     {
         name: "lashing tendrils",
@@ -168,6 +173,7 @@ export const DW = [
         level: "8",
         initiative: "80",
         cardno: "116",
+        levelNo: 8,
     },
     {
         name: "lingering rot",
@@ -178,6 +184,7 @@ export const DW = [
         level: "1",
         initiative: "64",
         cardno: "098",
+        levelNo: 1,
     },
     {
         name: "medium",
@@ -188,6 +195,7 @@ export const DW = [
         level: "5",
         initiative: "55",
         cardno: "110",
+        levelNo: 5,
     },
     {
         name: "proliferation of the abyss",
@@ -198,6 +206,7 @@ export const DW = [
         level: "7",
         initiative: "38",
         cardno: "114",
+        levelNo: 7,
     },
     {
         name: "pulled across",
@@ -208,6 +217,7 @@ export const DW = [
         level: "4",
         initiative: "77",
         cardno: "109",
+        levelNo: 4,
     },
     {
         name: "rest in the shade",
@@ -218,6 +228,7 @@ export const DW = [
         level: "X",
         initiative: "26",
         cardno: "103",
+        levelNo: 1,
     },
     {
         name: "restless spirits",
@@ -228,6 +239,7 @@ export const DW = [
         level: "2",
         initiative: "20",
         cardno: "104",
+        levelNo: 2,
     },
     {
         name: "ritual sacrifice",
@@ -238,6 +250,7 @@ export const DW = [
         level: "3",
         initiative: "13",
         cardno: "107",
+        levelNo: 3,
     },
     {
         name: "shadow step",
@@ -248,6 +261,7 @@ export const DW = [
         level: "1",
         initiative: "19",
         cardno: "099",
+        levelNo: 1,
     },
     {
         name: "strength of the abyss",
@@ -258,6 +272,7 @@ export const DW = [
         level: "1",
         initiative: "50",
         cardno: "100",
+        levelNo: 1,
     },
     {
         name: "sunless apparition",
@@ -268,6 +283,7 @@ export const DW = [
         level: "1",
         initiative: "96",
         cardno: "092",
+        levelNo: 1,
     },
     {
         name: "the night takes shape",
@@ -278,6 +294,7 @@ export const DW = [
         level: "6",
         initiative: "94",
         cardno: "112",
+        levelNo: 6,
     },
     {
         name: "vengeful storm",
@@ -288,6 +305,7 @@ export const DW = [
         level: "6",
         initiative: "18",
         cardno: "113",
+        levelNo: 6,
     },
     {
         name: "wave of anguish",
@@ -298,6 +316,7 @@ export const DW = [
         level: "X",
         initiative: "58",
         cardno: "101",
+        levelNo: 1,
     },
     {
         name: "when your time comes",
@@ -308,5 +327,6 @@ export const DW = [
         level: "9",
         initiative: "72",
         cardno: "118",
+        levelNo: 9,
     },
 ] as const;

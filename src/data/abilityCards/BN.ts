@@ -1,15 +1,5 @@
 export const BN = [
     {
-        name: "bn-back",
-        points: 648,
-        expansion: "Frosthaven",
-        image: "BN/fh-bn-back.png",
-        xws: "bnback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "air support",
         points: 649,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const BN = [
         level: "4",
         initiative: "20",
         cardno: "079",
+        levelNo: 4,
     },
     {
         name: "at all costs",
@@ -28,6 +19,7 @@ export const BN = [
         level: "1",
         initiative: "60",
         cardno: "061",
+        levelNo: 1,
     },
     {
         name: "barricade",
@@ -38,6 +30,7 @@ export const BN = [
         level: "6",
         initiative: "16",
         cardno: "082",
+        levelNo: 6,
     },
     {
         name: "boldening blow",
@@ -48,6 +41,7 @@ export const BN = [
         level: "4",
         initiative: "72",
         cardno: "078",
+        levelNo: 4,
     },
     {
         name: "bolstering shout",
@@ -58,6 +52,7 @@ export const BN = [
         level: "6",
         initiative: "75",
         cardno: "083",
+        levelNo: 6,
     },
     {
         name: "combined effort",
@@ -68,6 +63,7 @@ export const BN = [
         level: "1",
         initiative: "32",
         cardno: "067",
+        levelNo: 1,
     },
     {
         name: "deflecting maneuver",
@@ -78,6 +74,7 @@ export const BN = [
         level: "1",
         initiative: "15",
         cardno: "065",
+        levelNo: 1,
     },
     {
         name: "driving inspiration",
@@ -88,6 +85,7 @@ export const BN = [
         level: "X",
         initiative: "18",
         cardno: "073",
+        levelNo: 1,
     },
     {
         name: "explosive epicenter",
@@ -98,6 +96,7 @@ export const BN = [
         level: "5",
         initiative: "78",
         cardno: "080",
+        levelNo: 5,
     },
     {
         name: "hail of spears",
@@ -108,6 +107,7 @@ export const BN = [
         level: "9",
         initiative: "44",
         cardno: "089",
+        levelNo: 9,
     },
     {
         name: "head of the hammer",
@@ -118,6 +118,7 @@ export const BN = [
         level: "3",
         initiative: "87",
         cardno: "077",
+        levelNo: 3,
     },
     {
         name: "hold the line",
@@ -128,6 +129,7 @@ export const BN = [
         level: "5",
         initiative: "05",
         cardno: "081",
+        levelNo: 5,
     },
     {
         name: "incendiary throw",
@@ -138,6 +140,7 @@ export const BN = [
         level: "X",
         initiative: "22",
         cardno: "072",
+        levelNo: 1,
     },
     {
         name: "javelin",
@@ -148,6 +151,7 @@ export const BN = [
         level: "1",
         initiative: "21",
         cardno: "064",
+        levelNo: 1,
     },
     {
         name: "lead from afar",
@@ -158,6 +162,7 @@ export const BN = [
         level: "7",
         initiative: "80",
         cardno: "085",
+        levelNo: 7,
     },
     {
         name: "let them come",
@@ -168,6 +173,7 @@ export const BN = [
         level: "3",
         initiative: "24",
         cardno: "076",
+        levelNo: 3,
     },
     {
         name: "meat grinder",
@@ -178,6 +184,7 @@ export const BN = [
         level: "2",
         initiative: "62",
         cardno: "074",
+        levelNo: 2,
     },
     {
         name: "pincer movement",
@@ -188,6 +195,7 @@ export const BN = [
         level: "1",
         initiative: "69",
         cardno: "069",
+        levelNo: 1,
     },
     {
         name: "pinning charge",
@@ -198,6 +206,7 @@ export const BN = [
         level: "2",
         initiative: "17",
         cardno: "075",
+        levelNo: 2,
     },
     {
         name: "rallying cry",
@@ -208,6 +217,7 @@ export const BN = [
         level: "1",
         initiative: "71",
         cardno: "062",
+        levelNo: 1,
     },
     {
         name: "regroup",
@@ -218,6 +228,7 @@ export const BN = [
         level: "1",
         initiative: "25",
         cardno: "070",
+        levelNo: 1,
     },
     {
         name: "resolved courage",
@@ -228,6 +239,7 @@ export const BN = [
         level: "X",
         initiative: "10",
         cardno: "071",
+        levelNo: 1,
     },
     {
         name: "set for the charge",
@@ -238,6 +250,7 @@ export const BN = [
         level: "1",
         initiative: "06",
         cardno: "068",
+        levelNo: 1,
     },
     {
         name: "sweeping aid",
@@ -248,6 +261,7 @@ export const BN = [
         level: "8",
         initiative: "73",
         cardno: "086",
+        levelNo: 8,
     },
     {
         name: "take no prisoners",
@@ -258,6 +272,7 @@ export const BN = [
         level: "9",
         initiative: "85",
         cardno: "088",
+        levelNo: 9,
     },
     {
         name: "taunting howl",
@@ -268,6 +283,7 @@ export const BN = [
         level: "8",
         initiative: "11",
         cardno: "087",
+        levelNo: 8,
     },
     {
         name: "tip of the spear",
@@ -278,6 +294,7 @@ export const BN = [
         level: "1",
         initiative: "67",
         cardno: "066",
+        levelNo: 1,
     },
     {
         name: "tri-thrust",
@@ -288,6 +305,7 @@ export const BN = [
         level: "7",
         initiative: "27",
         cardno: "084",
+        levelNo: 7,
     },
     {
         name: "unbreakable wall",
@@ -298,5 +316,6 @@ export const BN = [
         level: "1",
         initiative: "83",
         cardno: "063",
+        levelNo: 1,
     },
 ] as const;

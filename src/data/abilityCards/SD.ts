@@ -1,15 +1,5 @@
 export const SD = [
     {
-        name: "sd-back",
-        points: 1088,
-        expansion: "Frosthaven",
-        image: "SD/fh-sd-back.png",
-        xws: "sdback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "birds in a tempest",
         points: 1089,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const SD = [
         level: "2",
         initiative: "18",
         cardno: "344",
+        levelNo: 2,
     },
     {
         name: "biting frost",
@@ -28,6 +19,7 @@ export const SD = [
         level: "4",
         initiative: "16",
         cardno: "349",
+        levelNo: 4,
     },
     {
         name: "blinding vortex",
@@ -38,6 +30,7 @@ export const SD = [
         level: "X",
         initiative: "31",
         cardno: "342",
+        levelNo: 1,
     },
     {
         name: "blizzard",
@@ -48,6 +41,7 @@ export const SD = [
         level: "1",
         initiative: "71",
         cardno: "330",
+        levelNo: 1,
     },
     {
         name: "chilling impact",
@@ -58,6 +52,7 @@ export const SD = [
         level: "1",
         initiative: "31",
         cardno: "332",
+        levelNo: 1,
     },
     {
         name: "cold snap",
@@ -68,6 +63,7 @@ export const SD = [
         level: "3",
         initiative: "86",
         cardno: "346",
+        levelNo: 3,
     },
     {
         name: "cold therapy",
@@ -78,6 +74,7 @@ export const SD = [
         level: "1",
         initiative: "20",
         cardno: "340",
+        levelNo: 1,
     },
     {
         name: "cross winds",
@@ -88,6 +85,7 @@ export const SD = [
         level: "1",
         initiative: "32",
         cardno: "338",
+        levelNo: 1,
     },
     {
         name: "enticing breeze",
@@ -98,6 +96,7 @@ export const SD = [
         level: "1",
         initiative: "76",
         cardno: "331",
+        levelNo: 1,
     },
     {
         name: "freezing storm",
@@ -108,6 +107,7 @@ export const SD = [
         level: "7",
         initiative: "81",
         cardno: "354",
+        levelNo: 7,
     },
     {
         name: "frigid growth",
@@ -118,6 +118,7 @@ export const SD = [
         level: "1",
         initiative: "70",
         cardno: "339",
+        levelNo: 1,
     },
     {
         name: "frozen brand",
@@ -128,6 +129,7 @@ export const SD = [
         level: "6",
         initiative: "33",
         cardno: "353",
+        levelNo: 6,
     },
     {
         name: "gathering force",
@@ -138,6 +140,7 @@ export const SD = [
         level: "1",
         initiative: "89",
         cardno: "333",
+        levelNo: 1,
     },
     {
         name: "lifting gust",
@@ -148,6 +151,7 @@ export const SD = [
         level: "1",
         initiative: "27",
         cardno: "335",
+        levelNo: 1,
     },
     {
         name: "nature's breath",
@@ -158,6 +162,7 @@ export const SD = [
         level: "1",
         initiative: "90",
         cardno: "334",
+        levelNo: 1,
     },
     {
         name: "polar vortex",
@@ -168,6 +173,7 @@ export const SD = [
         level: "3",
         initiative: "61",
         cardno: "347",
+        levelNo: 3,
     },
     {
         name: "refreshing flurry",
@@ -178,6 +184,7 @@ export const SD = [
         level: "6",
         initiative: "95",
         cardno: "352",
+        levelNo: 6,
     },
     {
         name: "shifting snow",
@@ -188,6 +195,7 @@ export const SD = [
         level: "5",
         initiative: "17",
         cardno: "351",
+        levelNo: 5,
     },
     {
         name: "snowball",
@@ -198,6 +206,7 @@ export const SD = [
         level: "1",
         initiative: "23",
         cardno: "336",
+        levelNo: 1,
     },
     {
         name: "snowblind",
@@ -208,6 +217,7 @@ export const SD = [
         level: "9",
         initiative: "83",
         cardno: "359",
+        levelNo: 9,
     },
     {
         name: "storm wall",
@@ -218,6 +228,7 @@ export const SD = [
         level: "7",
         initiative: "30",
         cardno: "355",
+        levelNo: 7,
     },
     {
         name: "surging blow",
@@ -228,6 +239,7 @@ export const SD = [
         level: "8",
         initiative: "73",
         cardno: "356",
+        levelNo: 8,
     },
     {
         name: "the endless white",
@@ -238,6 +250,7 @@ export const SD = [
         level: "8",
         initiative: "05",
         cardno: "357",
+        levelNo: 8,
     },
     {
         name: "the spirit's call",
@@ -248,6 +261,7 @@ export const SD = [
         level: "X",
         initiative: "45",
         cardno: "343",
+        levelNo: 1,
     },
     {
         name: "tornado",
@@ -258,6 +272,7 @@ export const SD = [
         level: "2",
         initiative: "59",
         cardno: "345",
+        levelNo: 2,
     },
     {
         name: "whipping gale",
@@ -268,6 +283,7 @@ export const SD = [
         level: "5",
         initiative: "79",
         cardno: "350",
+        levelNo: 5,
     },
     {
         name: "whiteout",
@@ -278,6 +294,7 @@ export const SD = [
         level: "1",
         initiative: "21",
         cardno: "337",
+        levelNo: 1,
     },
     {
         name: "white winds",
@@ -288,6 +305,7 @@ export const SD = [
         level: "X",
         initiative: "11",
         cardno: "341",
+        levelNo: 1,
     },
     {
         name: "winds of change",
@@ -298,6 +316,7 @@ export const SD = [
         level: "9",
         initiative: "15",
         cardno: "358",
+        levelNo: 9,
     },
     {
         name: "zephyr barrier",
@@ -308,5 +327,6 @@ export const SD = [
         level: "4",
         initiative: "40",
         cardno: "348",
+        levelNo: 4,
     },
 ] as const;

@@ -1,15 +1,5 @@
 export const FF = [
     {
-        name: "ff-back",
-        points: 856,
-        expansion: "Frosthaven",
-        image: "FF/fh-ff-back.png",
-        xws: "ffback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "bring down the mountain",
         points: 857,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const FF = [
         level: "9",
         initiative: "09",
         cardno: "385",
+        levelNo: 9,
     },
     {
         name: "cold boulder",
@@ -28,6 +19,7 @@ export const FF = [
         level: "1",
         initiative: "70",
         cardno: "361",
+        levelNo: 1,
     },
     {
         name: "crushing crystals",
@@ -38,6 +30,7 @@ export const FF = [
         level: "2",
         initiative: "67",
         cardno: "372",
+        levelNo: 2,
     },
     {
         name: "draw of the bedrock",
@@ -48,6 +41,7 @@ export const FF = [
         level: "2",
         initiative: "10",
         cardno: "371",
+        levelNo: 2,
     },
     {
         name: "draw strength",
@@ -58,6 +52,7 @@ export const FF = [
         level: "8",
         initiative: "28",
         cardno: "384",
+        levelNo: 8,
     },
     {
         name: "encased punch",
@@ -68,6 +63,7 @@ export const FF = [
         level: "1",
         initiative: "19",
         cardno: "364",
+        levelNo: 1,
     },
     {
         name: "freezing shell",
@@ -78,6 +74,7 @@ export const FF = [
         level: "X",
         initiative: "17",
         cardno: "370",
+        levelNo: 1,
     },
     {
         name: "frost eruption",
@@ -88,6 +85,7 @@ export const FF = [
         level: "1",
         initiative: "61",
         cardno: "362",
+        levelNo: 1,
     },
     {
         name: "frozen over",
@@ -98,6 +96,7 @@ export const FF = [
         level: "3",
         initiative: "20",
         cardno: "374",
+        levelNo: 3,
     },
     {
         name: "frozen spike",
@@ -108,6 +107,7 @@ export const FF = [
         level: "9",
         initiative: "33",
         cardno: "386",
+        levelNo: 9,
     },
     {
         name: "fury of the mountain",
@@ -118,6 +118,7 @@ export const FF = [
         level: "1",
         initiative: "23",
         cardno: "363",
+        levelNo: 1,
     },
     {
         name: "gift of the mountain",
@@ -128,6 +129,7 @@ export const FF = [
         level: "7",
         initiative: "73",
         cardno: "381",
+        levelNo: 7,
     },
     {
         name: "glacier slam",
@@ -138,6 +140,7 @@ export const FF = [
         level: "6",
         initiative: "84",
         cardno: "380",
+        levelNo: 6,
     },
     {
         name: "ice blast",
@@ -148,6 +151,7 @@ export const FF = [
         level: "1",
         initiative: "32",
         cardno: "367",
+        levelNo: 1,
     },
     {
         name: "ice uppercut",
@@ -158,6 +162,7 @@ export const FF = [
         level: "5",
         initiative: "15",
         cardno: "378",
+        levelNo: 5,
     },
     {
         name: "lacerating eruption",
@@ -168,6 +173,7 @@ export const FF = [
         level: "3",
         initiative: "51",
         cardno: "373",
+        levelNo: 3,
     },
     {
         name: "one with the mountain",
@@ -178,6 +184,7 @@ export const FF = [
         level: "1",
         initiative: "83",
         cardno: "360",
+        levelNo: 1,
     },
     {
         name: "packed solid",
@@ -188,6 +195,7 @@ export const FF = [
         level: "4",
         initiative: "55",
         cardno: "376",
+        levelNo: 4,
     },
     {
         name: "piercing pummel",
@@ -198,6 +206,7 @@ export const FF = [
         level: "1",
         initiative: "30",
         cardno: "366",
+        levelNo: 1,
     },
     {
         name: "preserved fury",
@@ -208,6 +217,7 @@ export const FF = [
         level: "5",
         initiative: "49",
         cardno: "377",
+        levelNo: 5,
     },
     {
         name: "primal bellow",
@@ -218,6 +228,7 @@ export const FF = [
         level: "X",
         initiative: "84",
         cardno: "369",
+        levelNo: 1,
     },
     {
         name: "seeing stars",
@@ -228,6 +239,7 @@ export const FF = [
         level: "7",
         initiative: "29",
         cardno: "382",
+        levelNo: 7,
     },
     {
         name: "shard launch",
@@ -238,6 +250,7 @@ export const FF = [
         level: "X",
         initiative: "52",
         cardno: "368",
+        levelNo: 1,
     },
     {
         name: "shattering blow",
@@ -248,6 +261,7 @@ export const FF = [
         level: "8",
         initiative: "18",
         cardno: "383",
+        levelNo: 8,
     },
     {
         name: "the mountain's fist",
@@ -258,6 +272,7 @@ export const FF = [
         level: "4",
         initiative: "16",
         cardno: "375",
+        levelNo: 4,
     },
     {
         name: "thick frost",
@@ -268,6 +283,7 @@ export const FF = [
         level: "6",
         initiative: "21",
         cardno: "379",
+        levelNo: 6,
     },
     {
         name: "voice from below",
@@ -278,5 +294,6 @@ export const FF = [
         level: "1",
         initiative: "22",
         cardno: "365",
+        levelNo: 1,
     },
 ] as const;

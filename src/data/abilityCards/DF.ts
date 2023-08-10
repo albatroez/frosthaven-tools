@@ -1,15 +1,5 @@
 export const DF = [
     {
-        name: "df-back",
-        points: 761,
-        expansion: "Frosthaven",
-        image: "DF/fh-df-back.png",
-        xws: "dfback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "accurate strikes",
         points: 762,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const DF = [
         level: "6",
         initiative: "56",
         cardno: "024",
+        levelNo: 6,
     },
     {
         name: "against all odds",
@@ -28,6 +19,7 @@ export const DF = [
         level: "8",
         initiative: "37",
         cardno: "028",
+        levelNo: 8,
     },
     {
         name: "bloodletting",
@@ -38,6 +30,7 @@ export const DF = [
         level: "1",
         initiative: "65",
         cardno: "011",
+        levelNo: 1,
     },
     {
         name: "break through",
@@ -48,6 +41,7 @@ export const DF = [
         level: "5",
         initiative: "34",
         cardno: "023",
+        levelNo: 5,
     },
     {
         name: "chunk of flesh",
@@ -58,6 +52,7 @@ export const DF = [
         level: "4",
         initiative: "62",
         cardno: "020",
+        levelNo: 4,
     },
     {
         name: "consume stamina",
@@ -68,6 +63,7 @@ export const DF = [
         level: "6",
         initiative: "21",
         cardno: "025",
+        levelNo: 6,
     },
     {
         name: "continuous health",
@@ -78,6 +74,7 @@ export const DF = [
         level: "1",
         initiative: "61",
         cardno: "004",
+        levelNo: 1,
     },
     {
         name: "crushing weight",
@@ -88,6 +85,7 @@ export const DF = [
         level: "1",
         initiative: "71",
         cardno: "001",
+        levelNo: 1,
     },
     {
         name: "deadly shot",
@@ -98,6 +96,7 @@ export const DF = [
         level: "1",
         initiative: "32",
         cardno: "010",
+        levelNo: 1,
     },
     {
         name: "destructive fury",
@@ -108,6 +107,7 @@ export const DF = [
         level: "X",
         initiative: "19",
         cardno: "015",
+        levelNo: 1,
     },
     {
         name: "draining arrows",
@@ -118,6 +118,7 @@ export const DF = [
         level: "1",
         initiative: "23",
         cardno: "008",
+        levelNo: 1,
     },
     {
         name: "dual bow",
@@ -128,6 +129,7 @@ export const DF = [
         level: "3",
         initiative: "26",
         cardno: "019",
+        levelNo: 3,
     },
     {
         name: "ever forward",
@@ -138,6 +140,7 @@ export const DF = [
         level: "2",
         initiative: "67",
         cardno: "017",
+        levelNo: 2,
     },
     {
         name: "everlasting",
@@ -148,6 +151,7 @@ export const DF = [
         level: "9",
         initiative: "96",
         cardno: "030",
+        levelNo: 9,
     },
     {
         name: "fierce barrage",
@@ -158,6 +162,7 @@ export const DF = [
         level: "3",
         initiative: "32",
         cardno: "018",
+        levelNo: 3,
     },
     {
         name: "fortitude",
@@ -168,6 +173,7 @@ export const DF = [
         level: "X",
         initiative: "31",
         cardno: "013",
+        levelNo: 1,
     },
     {
         name: "gift of the prey",
@@ -178,6 +184,7 @@ export const DF = [
         level: "4",
         initiative: "40",
         cardno: "021",
+        levelNo: 4,
     },
     {
         name: "inevitable conclusion",
@@ -188,6 +195,7 @@ export const DF = [
         level: "8",
         initiative: "29",
         cardno: "029",
+        levelNo: 8,
     },
     {
         name: "like the wind",
@@ -198,6 +206,7 @@ export const DF = [
         level: "7",
         initiative: "77",
         cardno: "026",
+        levelNo: 7,
     },
     {
         name: "no remorse",
@@ -208,6 +217,7 @@ export const DF = [
         level: "X",
         initiative: "20",
         cardno: "014",
+        levelNo: 1,
     },
     {
         name: "precision aim",
@@ -218,6 +228,7 @@ export const DF = [
         level: "1",
         initiative: "66",
         cardno: "003",
+        levelNo: 1,
     },
     {
         name: "prudent preparation",
@@ -228,6 +239,7 @@ export const DF = [
         level: "1",
         initiative: "14",
         cardno: "009",
+        levelNo: 1,
     },
     {
         name: "relentless",
@@ -238,6 +250,7 @@ export const DF = [
         level: "1",
         initiative: "89",
         cardno: "005",
+        levelNo: 1,
     },
     {
         name: "shockwave",
@@ -248,6 +261,7 @@ export const DF = [
         level: "2",
         initiative: "17",
         cardno: "016",
+        levelNo: 2,
     },
     {
         name: "survivalist",
@@ -258,6 +272,7 @@ export const DF = [
         level: "5",
         initiative: "91",
         cardno: "022",
+        levelNo: 5,
     },
     {
         name: "sustained momentum",
@@ -268,6 +283,7 @@ export const DF = [
         level: "1",
         initiative: "76",
         cardno: "002",
+        levelNo: 1,
     },
     {
         name: "unbreakable",
@@ -278,6 +294,7 @@ export const DF = [
         level: "1",
         initiative: "90",
         cardno: "006",
+        levelNo: 1,
     },
     {
         name: "unending fight",
@@ -288,6 +305,7 @@ export const DF = [
         level: "7",
         initiative: "25",
         cardno: "027",
+        levelNo: 7,
     },
     {
         name: "use every part",
@@ -298,6 +316,7 @@ export const DF = [
         level: "9",
         initiative: "18",
         cardno: "031",
+        levelNo: 9,
     },
     {
         name: "vile assault",
@@ -308,6 +327,7 @@ export const DF = [
         level: "1",
         initiative: "27",
         cardno: "007",
+        levelNo: 1,
     },
     {
         name: "violent inheritance",
@@ -318,5 +338,6 @@ export const DF = [
         level: "1",
         initiative: "70",
         cardno: "012",
+        levelNo: 1,
     },
 ] as const;

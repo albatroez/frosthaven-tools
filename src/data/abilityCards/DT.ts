@@ -1,15 +1,5 @@
 export const DT = [
     {
-        name: "dt-back",
-        points: 793,
-        expansion: "Frosthaven",
-        image: "DT/fh-dt-back.png",
-        xws: "dtback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "black night of the deep",
         points: 794,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const DT = [
         level: "9",
         initiative: "26",
         cardno: "472",
+        levelNo: 9,
     },
     {
         name: "black scythe",
@@ -28,6 +19,7 @@ export const DT = [
         level: "1",
         initiative: "45",
         cardno: "453",
+        levelNo: 1,
     },
     {
         name: "claw of doom",
@@ -38,6 +30,7 @@ export const DT = [
         level: "6",
         initiative: "30",
         cardno: "466",
+        levelNo: 6,
     },
     {
         name: "consume the helpless",
@@ -48,6 +41,7 @@ export const DT = [
         level: "9",
         initiative: "12",
         cardno: "473",
+        levelNo: 9,
     },
     {
         name: "crippling terror",
@@ -58,6 +52,7 @@ export const DT = [
         level: "3",
         initiative: "15",
         cardno: "460",
+        levelNo: 3,
     },
     {
         name: "crushing darkness",
@@ -68,6 +63,7 @@ export const DT = [
         level: "4",
         initiative: "40",
         cardno: "462",
+        levelNo: 4,
     },
     {
         name: "death spiral",
@@ -78,6 +74,7 @@ export const DT = [
         level: "5",
         initiative: "48",
         cardno: "465",
+        levelNo: 5,
     },
     {
         name: "dire frenzy",
@@ -88,6 +85,7 @@ export const DT = [
         level: "7",
         initiative: "26",
         cardno: "469",
+        levelNo: 7,
     },
     {
         name: "extra decoration",
@@ -98,6 +96,7 @@ export const DT = [
         level: "5",
         initiative: "92",
         cardno: "464",
+        levelNo: 5,
     },
     {
         name: "grim trophies",
@@ -108,6 +107,7 @@ export const DT = [
         level: "4",
         initiative: "18",
         cardno: "463",
+        levelNo: 4,
     },
     {
         name: "hasten the end",
@@ -118,6 +118,7 @@ export const DT = [
         level: "7",
         initiative: "65",
         cardno: "468",
+        levelNo: 7,
     },
     {
         name: "haunting brutality",
@@ -128,6 +129,7 @@ export const DT = [
         level: "X",
         initiative: "23",
         cardno: "457",
+        levelNo: 1,
     },
     {
         name: "hollow aura",
@@ -138,6 +140,7 @@ export const DT = [
         level: "1",
         initiative: "88",
         cardno: "446",
+        levelNo: 1,
     },
     {
         name: "ink cloud",
@@ -148,6 +151,7 @@ export const DT = [
         level: "1",
         initiative: "28",
         cardno: "449",
+        levelNo: 1,
     },
     {
         name: "lacerating stabs",
@@ -158,6 +162,7 @@ export const DT = [
         level: "1",
         initiative: "14",
         cardno: "450",
+        levelNo: 1,
     },
     {
         name: "lie in wait",
@@ -168,6 +173,7 @@ export const DT = [
         level: "2",
         initiative: "98",
         cardno: "459",
+        levelNo: 2,
     },
     {
         name: "mantle of dread",
@@ -178,6 +184,7 @@ export const DT = [
         level: "1",
         initiative: "96",
         cardno: "452",
+        levelNo: 1,
     },
     {
         name: "morbid camouflage",
@@ -188,6 +195,7 @@ export const DT = [
         level: "X",
         initiative: "31",
         cardno: "456",
+        levelNo: 1,
     },
     {
         name: "pinning spines",
@@ -198,6 +206,7 @@ export const DT = [
         level: "3",
         initiative: "25",
         cardno: "461",
+        levelNo: 3,
     },
     {
         name: "rip from the bone",
@@ -208,6 +217,7 @@ export const DT = [
         level: "8",
         initiative: "11",
         cardno: "471",
+        levelNo: 8,
     },
     {
         name: "skewer the flesh",
@@ -218,6 +228,7 @@ export const DT = [
         level: "1",
         initiative: "86",
         cardno: "447",
+        levelNo: 1,
     },
     {
         name: "skull collection",
@@ -228,6 +239,7 @@ export const DT = [
         level: "1",
         initiative: "22",
         cardno: "445",
+        levelNo: 1,
     },
     {
         name: "slipping into death",
@@ -238,6 +250,7 @@ export const DT = [
         level: "2",
         initiative: "89",
         cardno: "458",
+        levelNo: 2,
     },
     {
         name: "soul hunger",
@@ -248,6 +261,7 @@ export const DT = [
         level: "X",
         initiative: "91",
         cardno: "455",
+        levelNo: 1,
     },
     {
         name: "staring into the abyss",
@@ -258,6 +272,7 @@ export const DT = [
         level: "1",
         initiative: "63",
         cardno: "451",
+        levelNo: 1,
     },
     {
         name: "succumb to fear",
@@ -268,6 +283,7 @@ export const DT = [
         level: "1",
         initiative: "20",
         cardno: "448",
+        levelNo: 1,
     },
     {
         name: "the remorseless deep",
@@ -278,6 +294,7 @@ export const DT = [
         level: "6",
         initiative: "22",
         cardno: "467",
+        levelNo: 6,
     },
     {
         name: "tumultuous panic",
@@ -288,6 +305,7 @@ export const DT = [
         level: "1",
         initiative: "66",
         cardno: "454",
+        levelNo: 1,
     },
     {
         name: "unseen horror",
@@ -298,5 +316,6 @@ export const DT = [
         level: "8",
         initiative: "19",
         cardno: "470",
+        levelNo: 8,
     },
 ] as const;

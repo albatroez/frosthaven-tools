@@ -1,15 +1,5 @@
 export const PY = [
     {
-        name: "py-back",
-        points: 1058,
-        expansion: "Frosthaven",
-        image: "PY/fh-py-back.png",
-        xws: "pyback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "calamity",
         points: 1059,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const PY = [
         level: "9",
         initiative: "35",
         cardno: "243",
+        levelNo: 9,
     },
     {
         name: "cinder lance",
@@ -28,6 +19,7 @@ export const PY = [
         level: "8",
         initiative: "90",
         cardno: "241",
+        levelNo: 8,
     },
     {
         name: "cloud of ash",
@@ -38,6 +30,7 @@ export const PY = [
         level: "1",
         initiative: "23",
         cardno: "224",
+        levelNo: 1,
     },
     {
         name: "cooling",
@@ -48,6 +41,7 @@ export const PY = [
         level: "1",
         initiative: "75",
         cardno: "215",
+        levelNo: 1,
     },
     {
         name: "deep fury",
@@ -58,6 +52,7 @@ export const PY = [
         level: "2",
         initiative: "38",
         cardno: "229",
+        levelNo: 2,
     },
     {
         name: "erupting rage",
@@ -68,6 +63,7 @@ export const PY = [
         level: "7",
         initiative: "70",
         cardno: "238",
+        levelNo: 7,
     },
     {
         name: "eruption",
@@ -78,6 +74,7 @@ export const PY = [
         level: "1",
         initiative: "47",
         cardno: "218",
+        levelNo: 1,
     },
     {
         name: "feed the beast",
@@ -88,6 +85,7 @@ export const PY = [
         level: "8",
         initiative: "27",
         cardno: "240",
+        levelNo: 8,
     },
     {
         name: "flowing fire",
@@ -98,6 +96,7 @@ export const PY = [
         level: "1",
         initiative: "20",
         cardno: "217",
+        levelNo: 1,
     },
     {
         name: "force of the earth",
@@ -108,6 +107,7 @@ export const PY = [
         level: "X",
         initiative: "15",
         cardno: "226",
+        levelNo: 1,
     },
     {
         name: "hand of flame",
@@ -118,6 +118,7 @@ export const PY = [
         level: "4",
         initiative: "29",
         cardno: "232",
+        levelNo: 4,
     },
     {
         name: "hardened spike",
@@ -128,6 +129,7 @@ export const PY = [
         level: "3",
         initiative: "80",
         cardno: "231",
+        levelNo: 3,
     },
     {
         name: "heat wave",
@@ -138,6 +140,7 @@ export const PY = [
         level: "4",
         initiative: "08",
         cardno: "233",
+        levelNo: 4,
     },
     {
         name: "igneous path",
@@ -148,6 +151,7 @@ export const PY = [
         level: "1",
         initiative: "18",
         cardno: "220",
+        levelNo: 1,
     },
     {
         name: "lava bomb",
@@ -158,6 +162,7 @@ export const PY = [
         level: "1",
         initiative: "53",
         cardno: "219",
+        levelNo: 1,
     },
     {
         name: "liquid stone",
@@ -168,6 +173,7 @@ export const PY = [
         level: "1",
         initiative: "28",
         cardno: "223",
+        levelNo: 1,
     },
     {
         name: "living magma",
@@ -178,6 +184,7 @@ export const PY = [
         level: "3",
         initiative: "22",
         cardno: "230",
+        levelNo: 3,
     },
     {
         name: "magma orbs",
@@ -188,6 +195,7 @@ export const PY = [
         level: "5",
         initiative: "82",
         cardno: "235",
+        levelNo: 5,
     },
     {
         name: "melted armor",
@@ -198,6 +206,7 @@ export const PY = [
         level: "1",
         initiative: "62",
         cardno: "222",
+        levelNo: 1,
     },
     {
         name: "metamorphic rock",
@@ -208,6 +217,7 @@ export const PY = [
         level: "X",
         initiative: "68",
         cardno: "227",
+        levelNo: 1,
     },
     {
         name: "obsidian shield",
@@ -218,6 +228,7 @@ export const PY = [
         level: "6",
         initiative: "19",
         cardno: "237",
+        levelNo: 6,
     },
     {
         name: "quenched rage",
@@ -228,6 +239,7 @@ export const PY = [
         level: "1",
         initiative: "30",
         cardno: "216",
+        levelNo: 1,
     },
     {
         name: "rain of fire",
@@ -238,6 +250,7 @@ export const PY = [
         level: "5",
         initiative: "21",
         cardno: "234",
+        levelNo: 5,
     },
     {
         name: "return to the source",
@@ -248,6 +261,7 @@ export const PY = [
         level: "6",
         initiative: "14",
         cardno: "236",
+        levelNo: 6,
     },
     {
         name: "searing smoke",
@@ -258,6 +272,7 @@ export const PY = [
         level: "2",
         initiative: "45",
         cardno: "228",
+        levelNo: 2,
     },
     {
         name: "stone armor",
@@ -268,6 +283,7 @@ export const PY = [
         level: "9",
         initiative: "09",
         cardno: "242",
+        levelNo: 9,
     },
     {
         name: "swelter",
@@ -278,6 +294,7 @@ export const PY = [
         level: "7",
         initiative: "32",
         cardno: "239",
+        levelNo: 7,
     },
     {
         name: "under pressure",
@@ -288,6 +305,7 @@ export const PY = [
         level: "1",
         initiative: "85",
         cardno: "221",
+        levelNo: 1,
     },
     {
         name: "wildfire",
@@ -298,5 +316,6 @@ export const PY = [
         level: "X",
         initiative: "72",
         cardno: "225",
+        levelNo: 1,
     },
 ] as const;

@@ -1,6 +1,5 @@
 import { BB, BN, BO, CR, DF, DT, DW, FF, GE, HV, IF, ME, PC, PY, SD, SH, TA } from "./abilityCards";
 
-
 export const abilityCards = {
     BB: BB,
     BN: BN,
@@ -19,6 +18,6 @@ export const abilityCards = {
     SD: SD,
     SH: SH,
     TA: TA,
-}
-export type AbilityCards = typeof abilityCards
-export type AbilityCard = AbilityCards[keyof AbilityCards]
+};
+export type AbilityCards = typeof abilityCards;
+export type AbilityCard = AbilityCards[keyof AbilityCards];

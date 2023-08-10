@@ -53,7 +53,7 @@ export const cardsSlice = createSlice({
         },
         setCurrentLevel: (state, action) => {
             state.currentLevel = action.payload;
-        }
+        },
     },
 });
 

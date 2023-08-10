@@ -1,15 +1,5 @@
 export const SH = [
     {
-        name: "sh-back",
-        points: 1122,
-        expansion: "Frosthaven",
-        image: "SH/fh-sh-back.png",
-        xws: "shback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "barbaric yawp",
         points: 1123,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const SH = [
         level: "9",
         initiative: "66",
         cardno: "271",
+        levelNo: 9,
     },
     {
         name: "befuddling bellow",
@@ -28,6 +19,7 @@ export const SH = [
         level: "2",
         initiative: "18",
         cardno: "258",
+        levelNo: 2,
     },
     {
         name: "calamitous yawp",
@@ -38,6 +30,7 @@ export const SH = [
         level: "X",
         initiative: "65",
         cardno: "254",
+        levelNo: 1,
     },
     {
         name: "cloaking refraction",
@@ -48,6 +41,7 @@ export const SH = [
         level: "7",
         initiative: "11",
         cardno: "268",
+        levelNo: 7,
     },
     {
         name: "concentrated blast",
@@ -58,6 +52,7 @@ export const SH = [
         level: "4",
         initiative: "38",
         cardno: "261",
+        levelNo: 4,
     },
     {
         name: "devastating shout",
@@ -68,6 +63,7 @@ export const SH = [
         level: "1",
         initiative: "68",
         cardno: "253",
+        levelNo: 1,
     },
     {
         name: "din of battle",
@@ -78,6 +74,7 @@ export const SH = [
         level: "X",
         initiative: "14",
         cardno: "255",
+        levelNo: 1,
     },
     {
         name: "elemental pulse",
@@ -88,6 +85,7 @@ export const SH = [
         level: "4",
         initiative: "25",
         cardno: "262",
+        levelNo: 4,
     },
     {
         name: "empowering note",
@@ -98,6 +96,7 @@ export const SH = [
         level: "5",
         initiative: "45",
         cardno: "264",
+        levelNo: 5,
     },
     {
         name: "empowering pulse",
@@ -108,6 +107,7 @@ export const SH = [
         level: "1",
         initiative: "22",
         cardno: "252",
+        levelNo: 1,
     },
     {
         name: "feedback",
@@ -118,6 +118,7 @@ export const SH = [
         level: "8",
         initiative: "24",
         cardno: "270",
+        levelNo: 8,
     },
     {
         name: "forceful vibrations",
@@ -128,6 +129,7 @@ export const SH = [
         level: "1",
         initiative: "27",
         cardno: "247",
+        levelNo: 1,
     },
     {
         name: "foreboding tremors",
@@ -138,6 +140,7 @@ export const SH = [
         level: "1",
         initiative: "21",
         cardno: "249",
+        levelNo: 1,
     },
     {
         name: "future sense",
@@ -148,6 +151,7 @@ export const SH = [
         level: "6",
         initiative: "28",
         cardno: "266",
+        levelNo: 6,
     },
     {
         name: "heartening harmony",
@@ -158,6 +162,7 @@ export const SH = [
         level: "1",
         initiative: "30",
         cardno: "246",
+        levelNo: 1,
     },
     {
         name: "illuminative tone",
@@ -168,6 +173,7 @@ export const SH = [
         level: "X",
         initiative: "72",
         cardno: "256",
+        levelNo: 1,
     },
     {
         name: "lifting voice",
@@ -178,6 +184,7 @@ export const SH = [
         level: "1",
         initiative: "29",
         cardno: "245",
+        levelNo: 1,
     },
     {
         name: "precious gems",
@@ -188,6 +195,7 @@ export const SH = [
         level: "1",
         initiative: "10",
         cardno: "251",
+        levelNo: 1,
     },
     {
         name: "resonant frequency",
@@ -198,6 +206,7 @@ export const SH = [
         level: "1",
         initiative: "88",
         cardno: "248",
+        levelNo: 1,
     },
     {
         name: "shape the path",
@@ -208,6 +217,7 @@ export const SH = [
         level: "3",
         initiative: "40",
         cardno: "259",
+        levelNo: 3,
     },
     {
         name: "shrieking chakram",
@@ -218,6 +228,7 @@ export const SH = [
         level: "5",
         initiative: "08",
         cardno: "263",
+        levelNo: 5,
     },
     {
         name: "soft spots",
@@ -228,6 +239,7 @@ export const SH = [
         level: "8",
         initiative: "47",
         cardno: "269",
+        levelNo: 8,
     },
     {
         name: "sonic shock",
@@ -238,6 +250,7 @@ export const SH = [
         level: "1",
         initiative: "58",
         cardno: "250",
+        levelNo: 1,
     },
     {
         name: "sound therapy",
@@ -248,6 +261,7 @@ export const SH = [
         level: "7",
         initiative: "73",
         cardno: "267",
+        levelNo: 7,
     },
     {
         name: "stealth vibrations",
@@ -258,6 +272,7 @@ export const SH = [
         level: "3",
         initiative: "35",
         cardno: "260",
+        levelNo: 3,
     },
     {
         name: "transparency",
@@ -268,6 +283,7 @@ export const SH = [
         level: "2",
         initiative: "13",
         cardno: "257",
+        levelNo: 2,
     },
     {
         name: "unrelenting wail",
@@ -278,6 +294,7 @@ export const SH = [
         level: "1",
         initiative: "26",
         cardno: "244",
+        levelNo: 1,
     },
     {
         name: "unsustainable wave",
@@ -288,6 +305,7 @@ export const SH = [
         level: "6",
         initiative: "36",
         cardno: "265",
+        levelNo: 6,
     },
     {
         name: "violent vibrations",
@@ -298,5 +316,6 @@ export const SH = [
         level: "9",
         initiative: "05",
         cardno: "272",
+        levelNo: 9,
     },
 ] as const;

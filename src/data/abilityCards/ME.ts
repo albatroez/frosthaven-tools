@@ -1,15 +1,5 @@
 export const ME = [
     {
-        name: "me-back",
-        points: 997,
-        expansion: "Frosthaven",
-        image: "ME/fh-me-back.png",
-        xws: "meback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "ancient drill",
         points: 998,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const ME = [
         level: "1",
         initiative: "90",
         cardno: "418",
+        levelNo: 1,
     },
     {
         name: "beam axe",
@@ -28,6 +19,7 @@ export const ME = [
         level: "1",
         initiative: "29",
         cardno: "423",
+        levelNo: 1,
     },
     {
         name: "bronze plating",
@@ -38,6 +30,7 @@ export const ME = [
         level: "2",
         initiative: "18",
         cardno: "430",
+        levelNo: 2,
     },
     {
         name: "cryogenic hibernation",
@@ -48,6 +41,7 @@ export const ME = [
         level: "7",
         initiative: "19",
         cardno: "440",
+        levelNo: 7,
     },
     {
         name: "curious gear",
@@ -58,6 +52,7 @@ export const ME = [
         level: "X",
         initiative: "12",
         cardno: "428",
+        levelNo: 1,
     },
     {
         name: "curious machinery",
@@ -68,6 +63,7 @@ export const ME = [
         level: "8",
         initiative: "11",
         cardno: "442",
+        levelNo: 8,
     },
     {
         name: "electrical discharge",
@@ -78,6 +74,7 @@ export const ME = [
         level: "3",
         initiative: "26",
         cardno: "432",
+        levelNo: 3,
     },
     {
         name: "energy conversion",
@@ -88,6 +85,7 @@ export const ME = [
         level: "4",
         initiative: "23",
         cardno: "433",
+        levelNo: 4,
     },
     {
         name: "heat conduction",
@@ -98,6 +96,7 @@ export const ME = [
         level: "5",
         initiative: "11",
         cardno: "436",
+        levelNo: 5,
     },
     {
         name: "heated drill",
@@ -108,6 +107,7 @@ export const ME = [
         level: "7",
         initiative: "80",
         cardno: "439",
+        levelNo: 7,
     },
     {
         name: "magnetic field",
@@ -118,6 +118,7 @@ export const ME = [
         level: "4",
         initiative: "21",
         cardno: "434",
+        levelNo: 4,
     },
     {
         name: "memory drive",
@@ -128,6 +129,7 @@ export const ME = [
         level: "1",
         initiative: "64",
         cardno: "424",
+        levelNo: 1,
     },
     {
         name: "piston barrage",
@@ -138,6 +140,7 @@ export const ME = [
         level: "8",
         initiative: "33",
         cardno: "441",
+        levelNo: 8,
     },
     {
         name: "polarity shift",
@@ -148,6 +151,7 @@ export const ME = [
         level: "9",
         initiative: "79",
         cardno: "443",
+        levelNo: 9,
     },
     {
         name: "power core",
@@ -158,6 +162,7 @@ export const ME = [
         level: "1",
         initiative: "83",
         cardno: "420",
+        levelNo: 1,
     },
     {
         name: "pressure build-up",
@@ -168,6 +173,7 @@ export const ME = [
         level: "1",
         initiative: "20",
         cardno: "422",
+        levelNo: 1,
     },
     {
         name: "processing",
@@ -178,6 +184,7 @@ export const ME = [
         level: "X",
         initiative: "95",
         cardno: "426",
+        levelNo: 1,
     },
     {
         name: "radiation",
@@ -188,6 +195,7 @@ export const ME = [
         level: "5",
         initiative: "37",
         cardno: "435",
+        levelNo: 5,
     },
     {
         name: "recursion",
@@ -198,6 +206,7 @@ export const ME = [
         level: "X",
         initiative: "50",
         cardno: "427",
+        levelNo: 1,
     },
     {
         name: "release valve",
@@ -208,6 +217,7 @@ export const ME = [
         level: "2",
         initiative: "30",
         cardno: "429",
+        levelNo: 2,
     },
     {
         name: "rocket boots",
@@ -218,6 +228,7 @@ export const ME = [
         level: "1",
         initiative: "22",
         cardno: "419",
+        levelNo: 1,
     },
     {
         name: "scalding blast",
@@ -228,6 +239,7 @@ export const ME = [
         level: "6",
         initiative: "45",
         cardno: "437",
+        levelNo: 6,
     },
     {
         name: "steam armor",
@@ -238,6 +250,7 @@ export const ME = [
         level: "1",
         initiative: "17",
         cardno: "417",
+        levelNo: 1,
     },
     {
         name: "steam core",
@@ -248,6 +261,7 @@ export const ME = [
         level: "6",
         initiative: "71",
         cardno: "438",
+        levelNo: 6,
     },
     {
         name: "steel piston",
@@ -258,6 +272,7 @@ export const ME = [
         level: "1",
         initiative: "40",
         cardno: "421",
+        levelNo: 1,
     },
     {
         name: "stress vents",
@@ -268,6 +283,7 @@ export const ME = [
         level: "3",
         initiative: "15",
         cardno: "431",
+        levelNo: 3,
     },
     {
         name: "super heat transfer",
@@ -278,6 +294,7 @@ export const ME = [
         level: "1",
         initiative: "25",
         cardno: "425",
+        levelNo: 1,
     },
     {
         name: "unstable core",
@@ -288,5 +305,6 @@ export const ME = [
         level: "9",
         initiative: "10",
         cardno: "444",
+        levelNo: 9,
     },
 ] as const;

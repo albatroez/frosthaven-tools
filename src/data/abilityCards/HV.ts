@@ -1,15 +1,5 @@
 export const HV = [
     {
-        name: "hv-back",
-        points: 919,
-        expansion: "Frosthaven",
-        image: "HV/fh-hv-back.png",
-        xws: "hvback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "aimed assault",
         points: 920,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const HV = [
         level: "1",
         initiative: "88",
         cardno: "391",
+        levelNo: 1,
     },
     {
         name: "burning slash",
@@ -28,6 +19,7 @@ export const HV = [
         level: "8",
         initiative: "29",
         cardno: "414",
+        levelNo: 8,
     },
     {
         name: "code geminate",
@@ -38,6 +30,7 @@ export const HV = [
         level: "5",
         initiative: "28",
         cardno: "408",
+        levelNo: 5,
     },
     {
         name: "coiled limbs",
@@ -48,6 +41,7 @@ export const HV = [
         level: "1",
         initiative: "82",
         cardno: "390",
+        levelNo: 1,
     },
     {
         name: "disassemble",
@@ -58,6 +52,7 @@ export const HV = [
         level: "9",
         initiative: "20",
         cardno: "416",
+        levelNo: 9,
     },
     {
         name: "divergent destruction",
@@ -68,6 +63,7 @@ export const HV = [
         level: "4",
         initiative: "22",
         cardno: "406",
+        levelNo: 4,
     },
     {
         name: "faceless entity",
@@ -78,6 +74,7 @@ export const HV = [
         level: "1",
         initiative: "12",
         cardno: "393",
+        levelNo: 1,
     },
     {
         name: "force field",
@@ -88,6 +85,7 @@ export const HV = [
         level: "2",
         initiative: "78",
         cardno: "401",
+        levelNo: 2,
     },
     {
         name: "heavy metal",
@@ -98,6 +96,7 @@ export const HV = [
         level: "9",
         initiative: "76",
         cardno: "415",
+        levelNo: 9,
     },
     {
         name: "high impact projectiles",
@@ -108,6 +107,7 @@ export const HV = [
         level: "1",
         initiative: "16",
         cardno: "396",
+        levelNo: 1,
     },
     {
         name: "hijack",
@@ -118,6 +118,7 @@ export const HV = [
         level: "3",
         initiative: "40",
         cardno: "404",
+        levelNo: 3,
     },
     {
         name: "hunter-killer",
@@ -128,6 +129,7 @@ export const HV = [
         level: "1",
         initiative: "84",
         cardno: "389",
+        levelNo: 1,
     },
     {
         name: "interference",
@@ -138,6 +140,7 @@ export const HV = [
         level: "1",
         initiative: "21",
         cardno: "397",
+        levelNo: 1,
     },
     {
         name: "launch pod",
@@ -148,6 +151,7 @@ export const HV = [
         level: "1",
         initiative: "77",
         cardno: "392",
+        levelNo: 1,
     },
     {
         name: "long-range missile",
@@ -158,6 +162,7 @@ export const HV = [
         level: "2",
         initiative: "19",
         cardno: "402",
+        levelNo: 2,
     },
     {
         name: "mortar shells",
@@ -168,6 +173,7 @@ export const HV = [
         level: "7",
         initiative: "85",
         cardno: "411",
+        levelNo: 7,
     },
     {
         name: "net dispersal",
@@ -178,6 +184,7 @@ export const HV = [
         level: "5",
         initiative: "94",
         cardno: "407",
+        levelNo: 5,
     },
     {
         name: "plague protocol",
@@ -188,6 +195,7 @@ export const HV = [
         level: "4",
         initiative: "98",
         cardno: "405",
+        levelNo: 4,
     },
     {
         name: "plated defense",
@@ -198,6 +206,7 @@ export const HV = [
         level: "1",
         initiative: "80",
         cardno: "387",
+        levelNo: 1,
     },
     {
         name: "prepare for deployment",
@@ -208,6 +217,7 @@ export const HV = [
         level: "1",
         initiative: "64",
         cardno: "394",
+        levelNo: 1,
     },
     {
         name: "rapid fire",
@@ -218,6 +228,7 @@ export const HV = [
         level: "3",
         initiative: "92",
         cardno: "403",
+        levelNo: 3,
     },
     {
         name: "reaper function",
@@ -228,6 +239,7 @@ export const HV = [
         level: "1",
         initiative: "32",
         cardno: "395",
+        levelNo: 1,
     },
     {
         name: "reassemble",
@@ -238,6 +250,7 @@ export const HV = [
         level: "X",
         initiative: "27",
         cardno: "400",
+        levelNo: 1,
     },
     {
         name: "recall",
@@ -248,6 +261,7 @@ export const HV = [
         level: "7",
         initiative: "91",
         cardno: "412",
+        levelNo: 7,
     },
     {
         name: "reconstructive aid",
@@ -258,6 +272,7 @@ export const HV = [
         level: "1",
         initiative: "90",
         cardno: "388",
+        levelNo: 1,
     },
     {
         name: "remote control",
@@ -268,6 +283,7 @@ export const HV = [
         level: "X",
         initiative: "48",
         cardno: "399",
+        levelNo: 1,
     },
     {
         name: "shocking pulse",
@@ -278,6 +294,7 @@ export const HV = [
         level: "X",
         initiative: "86",
         cardno: "398",
+        levelNo: 1,
     },
     {
         name: "spinning blades",
@@ -288,6 +305,7 @@ export const HV = [
         level: "6",
         initiative: "79",
         cardno: "409",
+        levelNo: 6,
     },
     {
         name: "swarming bulwark",
@@ -298,6 +316,7 @@ export const HV = [
         level: "8",
         initiative: "96",
         cardno: "413",
+        levelNo: 8,
     },
     {
         name: "triage program",
@@ -308,5 +327,6 @@ export const HV = [
         level: "6",
         initiative: "13",
         cardno: "410",
+        levelNo: 6,
     },
 ] as const;

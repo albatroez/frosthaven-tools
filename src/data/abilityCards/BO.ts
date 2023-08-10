@@ -1,15 +1,5 @@
 export const BO = [
     {
-        name: "bo-back",
-        points: 687,
-        expansion: "Frosthaven",
-        image: "BO/fh-bo-back.png",
-        xws: "anback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "angry spirits",
         points: 688,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const BO = [
         level: "1",
         initiative: "76",
         cardno: "126",
+        levelNo: 1,
     },
     {
         name: "approach oblivion",
@@ -28,6 +19,7 @@ export const BO = [
         level: "X",
         initiative: "53",
         cardno: "132",
+        levelNo: 1,
     },
     {
         name: "behold the shrouded sun",
@@ -38,6 +30,7 @@ export const BO = [
         level: "9",
         initiative: "10",
         cardno: "150",
+        levelNo: 9,
     },
     {
         name: "bone dagger",
@@ -48,6 +41,7 @@ export const BO = [
         level: "2",
         initiative: "29",
         cardno: "136",
+        levelNo: 2,
     },
     {
         name: "command the wretched",
@@ -58,6 +52,7 @@ export const BO = [
         level: "1",
         initiative: "83",
         cardno: "129",
+        levelNo: 1,
     },
     {
         name: "critical failure",
@@ -68,6 +63,7 @@ export const BO = [
         level: "4",
         initiative: "95",
         cardno: "139",
+        levelNo: 4,
     },
     {
         name: "damned horde",
@@ -78,6 +74,7 @@ export const BO = [
         level: "1",
         initiative: "71",
         cardno: "122",
+        levelNo: 1,
     },
     {
         name: "dark tidings",
@@ -88,6 +85,7 @@ export const BO = [
         level: "1",
         initiative: "43",
         cardno: "125",
+        levelNo: 1,
     },
     {
         name: "decaying will",
@@ -98,6 +96,7 @@ export const BO = [
         level: "1",
         initiative: "46",
         cardno: "124",
+        levelNo: 1,
     },
     {
         name: "endless numbers",
@@ -108,6 +107,7 @@ export const BO = [
         level: "8",
         initiative: "86",
         cardno: "147",
+        levelNo: 8,
     },
     {
         name: "eternal torment",
@@ -118,6 +118,7 @@ export const BO = [
         level: "1",
         initiative: "70",
         cardno: "130",
+        levelNo: 1,
     },
     {
         name: "exploding corpse",
@@ -128,6 +129,7 @@ export const BO = [
         level: "X",
         initiative: "21",
         cardno: "133",
+        levelNo: 1,
     },
     {
         name: "fell remedy",
@@ -138,6 +140,7 @@ export const BO = [
         level: "1",
         initiative: "30",
         cardno: "127",
+        levelNo: 1,
     },
     {
         name: "flesh shield",
@@ -148,6 +151,7 @@ export const BO = [
         level: "4",
         initiative: "16",
         cardno: "140",
+        levelNo: 4,
     },
     {
         name: "flow of the black river",
@@ -158,6 +162,7 @@ export const BO = [
         level: "1",
         initiative: "18",
         cardno: "128",
+        levelNo: 1,
     },
     {
         name: "grave digging",
@@ -168,6 +173,7 @@ export const BO = [
         level: "3",
         initiative: "96",
         cardno: "137",
+        levelNo: 3,
     },
     {
         name: "life in death",
@@ -178,6 +184,7 @@ export const BO = [
         level: "1",
         initiative: "91",
         cardno: "120",
+        levelNo: 1,
     },
     {
         name: "malicious conversion",
@@ -188,6 +195,7 @@ export const BO = [
         level: "1",
         initiative: "26",
         cardno: "131",
+        levelNo: 1,
     },
     {
         name: "putrid cloud",
@@ -198,6 +206,7 @@ export const BO = [
         level: "3",
         initiative: "28",
         cardno: "138",
+        levelNo: 3,
     },
     {
         name: "recycled limbs",
@@ -208,6 +217,7 @@ export const BO = [
         level: "7",
         initiative: "52",
         cardno: "145",
+        levelNo: 7,
     },
     {
         name: "returned servant",
@@ -218,6 +228,7 @@ export const BO = [
         level: "1",
         initiative: "81",
         cardno: "121",
+        levelNo: 1,
     },
     {
         name: "rotting multitude",
@@ -228,6 +239,7 @@ export const BO = [
         level: "6",
         initiative: "66",
         cardno: "143",
+        levelNo: 6,
     },
     {
         name: "solid bones",
@@ -238,6 +250,7 @@ export const BO = [
         level: "5",
         initiative: "32",
         cardno: "142",
+        levelNo: 5,
     },
     {
         name: "soul claim",
@@ -248,6 +261,7 @@ export const BO = [
         level: "7",
         initiative: "23",
         cardno: "146",
+        levelNo: 7,
     },
     {
         name: "transfer of essence",
@@ -258,6 +272,7 @@ export const BO = [
         level: "1",
         initiative: "62",
         cardno: "123",
+        levelNo: 1,
     },
     {
         name: "twisted decree",
@@ -268,6 +283,7 @@ export const BO = [
         level: "6",
         initiative: "85",
         cardno: "144",
+        levelNo: 6,
     },
     {
         name: "unearthed horror",
@@ -278,6 +294,7 @@ export const BO = [
         level: "2",
         initiative: "94",
         cardno: "135",
+        levelNo: 2,
     },
     {
         name: "unforgivable methods",
@@ -288,6 +305,7 @@ export const BO = [
         level: "5",
         initiative: "98",
         cardno: "141",
+        levelNo: 5,
     },
     {
         name: "unholy prowess",
@@ -298,6 +316,7 @@ export const BO = [
         level: "9",
         initiative: "97",
         cardno: "149",
+        levelNo: 9,
     },
     {
         name: "wailing from beyond",
@@ -308,6 +327,7 @@ export const BO = [
         level: "8",
         initiative: "73",
         cardno: "148",
+        levelNo: 8,
     },
     {
         name: "wrath of the turned earth",
@@ -318,5 +338,6 @@ export const BO = [
         level: "X",
         initiative: "80",
         cardno: "134",
+        levelNo: 1,
     },
 ] as const;

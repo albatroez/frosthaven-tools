@@ -1,15 +1,5 @@
 export const BB = [
     {
-        name: "bb-back",
-        points: 618,
-        expansion: "Frosthaven",
-        image: "BB/fh-bb-back.png",
-        xws: "bbback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "blurry jab",
         points: 619,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const BB = [
         level: "1",
         initiative: "20/50",
         cardno: "032",
+        levelNo: 1,
     },
     {
         name: "borrowed time",
@@ -28,6 +19,7 @@ export const BB = [
         level: "X",
         initiative: "02/32",
         cardno: "044",
+        levelNo: 1,
     },
     {
         name: "breakneck speed",
@@ -38,6 +30,7 @@ export const BB = [
         level: "5",
         initiative: "03/33",
         cardno: "051",
+        levelNo: 5,
     },
     {
         name: "cascading reaction",
@@ -48,6 +41,7 @@ export const BB = [
         level: "1",
         initiative: "19/49",
         cardno: "040",
+        levelNo: 1,
     },
     {
         name: "double time",
@@ -58,6 +52,7 @@ export const BB = [
         level: "3",
         initiative: "22/52",
         cardno: "048",
+        levelNo: 3,
     },
     {
         name: "drive recharge",
@@ -68,6 +63,7 @@ export const BB = [
         level: "1",
         initiative: "69/99",
         cardno: "039",
+        levelNo: 1,
     },
     {
         name: "experimental adjustment",
@@ -78,6 +74,7 @@ export const BB = [
         level: "X",
         initiative: "12/42",
         cardno: "042",
+        levelNo: 1,
     },
     {
         name: "fastest alive",
@@ -88,6 +85,7 @@ export const BB = [
         level: "8",
         initiative: "01/31",
         cardno: "058",
+        levelNo: 8,
     },
     {
         name: "flashing flurry",
@@ -98,6 +96,7 @@ export const BB = [
         level: "5",
         initiative: "40/70",
         cardno: "052",
+        levelNo: 5,
     },
     {
         name: "fractured timeline",
@@ -108,6 +107,7 @@ export const BB = [
         level: "9",
         initiative: "55/85",
         cardno: "060",
+        levelNo: 9,
     },
     {
         name: "hit and run",
@@ -118,6 +118,7 @@ export const BB = [
         level: "1",
         initiative: "41/71",
         cardno: "038",
+        levelNo: 1,
     },
     {
         name: "kinetic transfer",
@@ -128,6 +129,7 @@ export const BB = [
         level: "1",
         initiative: "36/66",
         cardno: "035",
+        levelNo: 1,
     },
     {
         name: "make it count",
@@ -138,6 +140,7 @@ export const BB = [
         level: "3",
         initiative: "51/81",
         cardno: "047",
+        levelNo: 3,
     },
     {
         name: "overdrive",
@@ -148,6 +151,7 @@ export const BB = [
         level: "1",
         initiative: "60/90",
         cardno: "036",
+        levelNo: 1,
     },
     {
         name: "phasing blades",
@@ -158,6 +162,7 @@ export const BB = [
         level: "7",
         initiative: "63/93",
         cardno: "055",
+        levelNo: 7,
     },
     {
         name: "potential energy",
@@ -168,6 +173,7 @@ export const BB = [
         level: "4",
         initiative: "32/62",
         cardno: "050",
+        levelNo: 4,
     },
     {
         name: "power leak",
@@ -178,6 +184,7 @@ export const BB = [
         level: "1",
         initiative: "17/47",
         cardno: "037",
+        levelNo: 1,
     },
     {
         name: "precision timing",
@@ -188,6 +195,7 @@ export const BB = [
         level: "4",
         initiative: "15/45",
         cardno: "049",
+        levelNo: 4,
     },
     {
         name: "quantum uncertainty",
@@ -198,6 +206,7 @@ export const BB = [
         level: "8",
         initiative: "35/65",
         cardno: "057",
+        levelNo: 8,
     },
     {
         name: "reckless augmentation",
@@ -208,6 +217,7 @@ export const BB = [
         level: "2",
         initiative: "10/40",
         cardno: "046",
+        levelNo: 2,
     },
     {
         name: "reverse the flow",
@@ -218,6 +228,7 @@ export const BB = [
         level: "9",
         initiative: "58/88",
         cardno: "059",
+        levelNo: 9,
     },
     {
         name: "rushed to the end",
@@ -228,6 +239,7 @@ export const BB = [
         level: "7",
         initiative: "32/62",
         cardno: "056",
+        levelNo: 7,
     },
     {
         name: "sand in the hourglass",
@@ -238,6 +250,7 @@ export const BB = [
         level: "X",
         initiative: "52/82",
         cardno: "043",
+        levelNo: 1,
     },
     {
         name: "sap speed",
@@ -248,6 +261,7 @@ export const BB = [
         level: "1",
         initiative: "45/75",
         cardno: "034",
+        levelNo: 1,
     },
     {
         name: "stab them all",
@@ -258,6 +272,7 @@ export const BB = [
         level: "6",
         initiative: "04/34",
         cardno: "053",
+        levelNo: 6,
     },
     {
         name: "systems reboot",
@@ -268,6 +283,7 @@ export const BB = [
         level: "2",
         initiative: "57/87",
         cardno: "045",
+        levelNo: 2,
     },
     {
         name: "temporal displacement",
@@ -278,6 +294,7 @@ export const BB = [
         level: "1",
         initiative: "44/74",
         cardno: "041",
+        levelNo: 1,
     },
     {
         name: "the knife's edge",
@@ -288,6 +305,7 @@ export const BB = [
         level: "6",
         initiative: "65/95",
         cardno: "054",
+        levelNo: 6,
     },
     {
         name: "twin strike",
@@ -298,5 +316,6 @@ export const BB = [
         level: "1",
         initiative: "24/54",
         cardno: "033",
+        levelNo: 1,
     },
 ] as const;

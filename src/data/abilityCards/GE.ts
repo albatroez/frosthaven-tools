@@ -1,15 +1,5 @@
 export const GE = [
     {
-        name: "ge-back",
-        points: 884,
-        expansion: "Frosthaven",
-        image: "GE/fh-ge-back.png",
-        xws: "geback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "accelerated metabolism",
         points: 885,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const GE = [
         level: "8",
         initiative: "85",
         cardno: "181",
+        levelNo: 8,
     },
     {
         name: "alluring pheromones",
@@ -28,6 +19,7 @@ export const GE = [
         level: "7",
         initiative: "49",
         cardno: "180",
+        levelNo: 7,
     },
     {
         name: "changeling's boon",
@@ -38,6 +30,7 @@ export const GE = [
         level: "1",
         initiative: "40",
         cardno: "154",
+        levelNo: 1,
     },
     {
         name: "chitinous horde",
@@ -48,6 +41,7 @@ export const GE = [
         level: "5",
         initiative: "15",
         cardno: "176",
+        levelNo: 5,
     },
     {
         name: "corrosive acids",
@@ -58,6 +52,7 @@ export const GE = [
         level: "6",
         initiative: "28",
         cardno: "177",
+        levelNo: 6,
     },
     {
         name: "drag down",
@@ -68,6 +63,7 @@ export const GE = [
         level: "1",
         initiative: "34",
         cardno: "156",
+        levelNo: 1,
     },
     {
         name: "dragonfly surge",
@@ -78,6 +74,7 @@ export const GE = [
         level: "3",
         initiative: "50",
         cardno: "172",
+        levelNo: 3,
     },
     {
         name: "draining pincers",
@@ -88,6 +85,7 @@ export const GE = [
         level: "1",
         initiative: "72",
         cardno: "152",
+        levelNo: 1,
     },
     {
         name: "feeding frenzy",
@@ -98,6 +96,7 @@ export const GE = [
         level: "X",
         initiative: "62",
         cardno: "159",
+        levelNo: 1,
     },
     {
         name: "firefly swarm",
@@ -108,6 +107,7 @@ export const GE = [
         level: "1",
         initiative: "76",
         cardno: "162",
+        levelNo: 1,
     },
     {
         name: "flailing tendrils",
@@ -118,6 +118,7 @@ export const GE = [
         level: "1",
         initiative: "12",
         cardno: "155",
+        levelNo: 1,
     },
     {
         name: "formless grace",
@@ -128,6 +129,7 @@ export const GE = [
         level: "5",
         initiative: "75",
         cardno: "175",
+        levelNo: 5,
     },
     {
         name: "hail of thorns",
@@ -138,6 +140,7 @@ export const GE = [
         level: "1",
         initiative: "88",
         cardno: "166",
+        levelNo: 1,
     },
     {
         name: "harbinger of ruin",
@@ -148,6 +151,7 @@ export const GE = [
         level: "9",
         initiative: "11",
         cardno: "183",
+        levelNo: 9,
     },
     {
         name: "harvest the essence",
@@ -158,6 +162,7 @@ export const GE = [
         level: "1",
         initiative: "60",
         cardno: "165",
+        levelNo: 1,
     },
     {
         name: "hirudotherapy",
@@ -168,6 +173,7 @@ export const GE = [
         level: "6",
         initiative: "92",
         cardno: "178",
+        levelNo: 6,
     },
     {
         name: "hornbeetle carapace",
@@ -178,6 +184,7 @@ export const GE = [
         level: "1",
         initiative: "20",
         cardno: "157",
+        levelNo: 1,
     },
     {
         name: "hornet stingers",
@@ -188,6 +195,7 @@ export const GE = [
         level: "1",
         initiative: "23",
         cardno: "153",
+        levelNo: 1,
     },
     {
         name: "icebound quills",
@@ -198,6 +206,7 @@ export const GE = [
         level: "1",
         initiative: "14",
         cardno: "151",
+        levelNo: 1,
     },
     {
         name: "into my embrace",
@@ -208,6 +217,7 @@ export const GE = [
         level: "1",
         initiative: "36",
         cardno: "161",
+        levelNo: 1,
     },
     {
         name: "locust host",
@@ -218,6 +228,7 @@ export const GE = [
         level: "2",
         initiative: "23",
         cardno: "170",
+        levelNo: 2,
     },
     {
         name: "luminous descent",
@@ -228,6 +239,7 @@ export const GE = [
         level: "4",
         initiative: "67",
         cardno: "174",
+        levelNo: 4,
     },
     {
         name: "mandible storm",
@@ -238,6 +250,7 @@ export const GE = [
         level: "3",
         initiative: "30",
         cardno: "171",
+        levelNo: 3,
     },
     {
         name: "mind spike",
@@ -248,6 +261,7 @@ export const GE = [
         level: "1",
         initiative: "18",
         cardno: "164",
+        levelNo: 1,
     },
     {
         name: "oscillating entity",
@@ -258,6 +272,7 @@ export const GE = [
         level: "8",
         initiative: "55",
         cardno: "182",
+        levelNo: 8,
     },
     {
         name: "reckless jab",
@@ -268,6 +283,7 @@ export const GE = [
         level: "X",
         initiative: "38",
         cardno: "158",
+        levelNo: 1,
     },
     {
         name: "reshape the guise",
@@ -278,6 +294,7 @@ export const GE = [
         level: "X",
         initiative: "38",
         cardno: "168",
+        levelNo: 1,
     },
     {
         name: "scarab flight",
@@ -288,6 +305,7 @@ export const GE = [
         level: "1",
         initiative: "30",
         cardno: "163",
+        levelNo: 1,
     },
     {
         name: "selfless offering",
@@ -298,6 +316,7 @@ export const GE = [
         level: "1",
         initiative: "27",
         cardno: "160",
+        levelNo: 1,
     },
     {
         name: "smoldering hatred",
@@ -308,6 +327,7 @@ export const GE = [
         level: "X",
         initiative: "32",
         cardno: "167",
+        levelNo: 1,
     },
     {
         name: "thresh and flail",
@@ -318,6 +338,7 @@ export const GE = [
         level: "4",
         initiative: "43",
         cardno: "173",
+        levelNo: 4,
     },
     {
         name: "two-pronged entrapment",
@@ -328,6 +349,7 @@ export const GE = [
         level: "7",
         initiative: "21",
         cardno: "179",
+        levelNo: 7,
     },
     {
         name: "venomous barbs",
@@ -338,6 +360,7 @@ export const GE = [
         level: "2",
         initiative: "17",
         cardno: "169",
+        levelNo: 2,
     },
     {
         name: "voice of salvation",
@@ -348,5 +371,6 @@ export const GE = [
         level: "9",
         initiative: "39",
         cardno: "184",
+        levelNo: 9,
     },
 ] as const;

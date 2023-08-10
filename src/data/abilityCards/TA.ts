@@ -1,15 +1,5 @@
 export const TA = [
     {
-        name: "ta-back",
-        points: 1152,
-        expansion: "Frosthaven",
-        image: "TA/fh-ta-back.png",
-        xws: "taback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "boar catcher",
         points: 1153,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const TA = [
         level: "1",
         initiative: "20",
         cardno: "275",
+        levelNo: 1,
     },
     {
         name: "cage of thorns",
@@ -28,6 +19,7 @@ export const TA = [
         level: "6",
         initiative: "55",
         cardno: "294",
+        levelNo: 6,
     },
     {
         name: "caltrops",
@@ -38,6 +30,7 @@ export const TA = [
         level: "1",
         initiative: "25",
         cardno: "273",
+        levelNo: 1,
     },
     {
         name: "dangerous cargo",
@@ -48,6 +41,7 @@ export const TA = [
         level: "9",
         initiative: "23",
         cardno: "299",
+        levelNo: 9,
     },
     {
         name: "dangerous ground",
@@ -58,6 +52,7 @@ export const TA = [
         level: "4",
         initiative: "31",
         cardno: "289",
+        levelNo: 4,
     },
     {
         name: "dismantle",
@@ -68,6 +63,7 @@ export const TA = [
         level: "X",
         initiative: "72",
         cardno: "282",
+        levelNo: 1,
     },
     {
         name: "electrified net",
@@ -78,6 +74,7 @@ export const TA = [
         level: "1",
         initiative: "53",
         cardno: "277",
+        levelNo: 1,
     },
     {
         name: "enticing bait",
@@ -88,6 +85,7 @@ export const TA = [
         level: "1",
         initiative: "30",
         cardno: "279",
+        levelNo: 1,
     },
     {
         name: "exploding decoy",
@@ -98,6 +96,7 @@ export const TA = [
         level: "1",
         initiative: "62",
         cardno: "280",
+        levelNo: 1,
     },
     {
         name: "extra teeth",
@@ -108,6 +107,7 @@ export const TA = [
         level: "3",
         initiative: "22",
         cardno: "287",
+        levelNo: 3,
     },
     {
         name: "flurry of nails",
@@ -118,6 +118,7 @@ export const TA = [
         level: "1",
         initiative: "68",
         cardno: "281",
+        levelNo: 1,
     },
     {
         name: "foxhole",
@@ -128,6 +129,7 @@ export const TA = [
         level: "7",
         initiative: "90",
         cardno: "296",
+        levelNo: 7,
     },
     {
         name: "furry facade",
@@ -138,6 +140,7 @@ export const TA = [
         level: "1",
         initiative: "85",
         cardno: "274",
+        levelNo: 1,
     },
     {
         name: "grasping hazards",
@@ -148,6 +151,7 @@ export const TA = [
         level: "7",
         initiative: "08",
         cardno: "295",
+        levelNo: 7,
     },
     {
         name: "honeypot",
@@ -158,6 +162,7 @@ export const TA = [
         level: "1",
         initiative: "18",
         cardno: "278",
+        levelNo: 1,
     },
     {
         name: "improvised improvement",
@@ -168,6 +173,7 @@ export const TA = [
         level: "X",
         initiative: "58",
         cardno: "284",
+        levelNo: 1,
     },
     {
         name: "lure of the snare",
@@ -178,6 +184,7 @@ export const TA = [
         level: "5",
         initiative: "59",
         cardno: "291",
+        levelNo: 5,
     },
     {
         name: "magnetic shards",
@@ -188,6 +195,7 @@ export const TA = [
         level: "8",
         initiative: "37",
         cardno: "298",
+        levelNo: 8,
     },
     {
         name: "mother of all traps",
@@ -198,6 +206,7 @@ export const TA = [
         level: "9",
         initiative: "86",
         cardno: "300",
+        levelNo: 9,
     },
     {
         name: "path of pain",
@@ -208,6 +217,7 @@ export const TA = [
         level: "2",
         initiative: "38",
         cardno: "286",
+        levelNo: 2,
     },
     {
         name: "persistent pitfalls",
@@ -218,6 +228,7 @@ export const TA = [
         level: "6",
         initiative: "13",
         cardno: "293",
+        levelNo: 6,
     },
     {
         name: "proficient hunter",
@@ -228,6 +239,7 @@ export const TA = [
         level: "5",
         initiative: "26",
         cardno: "292",
+        levelNo: 5,
     },
     {
         name: "pyrotechnics",
@@ -238,6 +250,7 @@ export const TA = [
         level: "3",
         initiative: "80",
         cardno: "288",
+        levelNo: 3,
     },
     {
         name: "spike pit",
@@ -248,6 +261,7 @@ export const TA = [
         level: "1",
         initiative: "47",
         cardno: "276",
+        levelNo: 1,
     },
     {
         name: "spike strip",
@@ -258,6 +272,7 @@ export const TA = [
         level: "8",
         initiative: "67",
         cardno: "297",
+        levelNo: 8,
     },
     {
         name: "spring-loaded",
@@ -268,6 +283,7 @@ export const TA = [
         level: "X",
         initiative: "15",
         cardno: "283",
+        levelNo: 1,
     },
     {
         name: "stalker's spoils",
@@ -278,6 +294,7 @@ export const TA = [
         level: "4",
         initiative: "10",
         cardno: "290",
+        levelNo: 4,
     },
     {
         name: "unavoidable outcome",
@@ -288,5 +305,6 @@ export const TA = [
         level: "2",
         initiative: "45",
         cardno: "285",
+        levelNo: 2,
     },
 ] as const;

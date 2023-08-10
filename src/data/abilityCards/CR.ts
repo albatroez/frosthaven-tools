@@ -1,15 +1,5 @@
 export const CR = [
     {
-        name: "cr-back",
-        points: 729,
-        expansion: "Frosthaven",
-        image: "CR/fh-cr-back.png",
-        xws: "crback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "blood in the water",
         points: 730,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const CR = [
         level: "2",
         initiative: "53",
         cardno: "490",
+        levelNo: 2,
     },
     {
         name: "chaotic refraction",
@@ -28,6 +19,7 @@ export const CR = [
         level: "4",
         initiative: "26",
         cardno: "493",
+        levelNo: 4,
     },
     {
         name: "cleansing swell",
@@ -38,6 +30,7 @@ export const CR = [
         level: "1",
         initiative: "45",
         cardno: "481",
+        levelNo: 1,
     },
     {
         name: "clean sweep",
@@ -48,6 +41,7 @@ export const CR = [
         level: "4",
         initiative: "65",
         cardno: "494",
+        levelNo: 4,
     },
     {
         name: "crashing surge",
@@ -58,6 +52,7 @@ export const CR = [
         level: "1",
         initiative: "34",
         cardno: "483",
+        levelNo: 1,
     },
     {
         name: "cresting force",
@@ -68,6 +63,7 @@ export const CR = [
         level: "1",
         initiative: "87",
         cardno: "482",
+        levelNo: 1,
     },
     {
         name: "crush armor",
@@ -78,6 +74,7 @@ export const CR = [
         level: "X",
         initiative: "42",
         cardno: "488",
+        levelNo: 1,
     },
     {
         name: "death on all sides",
@@ -88,6 +85,7 @@ export const CR = [
         level: "8",
         initiative: "73",
         cardno: "501",
+        levelNo: 8,
     },
     {
         name: "down to the depths",
@@ -98,6 +96,7 @@ export const CR = [
         level: "1",
         initiative: "74",
         cardno: "478",
+        levelNo: 1,
     },
     {
         name: "drown beneath the waves",
@@ -108,6 +107,7 @@ export const CR = [
         level: "7",
         initiative: "09",
         cardno: "500",
+        levelNo: 7,
     },
     {
         name: "dug in",
@@ -118,6 +118,7 @@ export const CR = [
         level: "7",
         initiative: "76",
         cardno: "499",
+        levelNo: 7,
     },
     {
         name: "ebb and flow",
@@ -128,6 +129,7 @@ export const CR = [
         level: "8",
         initiative: "24",
         cardno: "502",
+        levelNo: 8,
     },
     {
         name: "endless cycle",
@@ -138,6 +140,7 @@ export const CR = [
         level: "3",
         initiative: "08",
         cardno: "492",
+        levelNo: 3,
     },
     {
         name: "high tide",
@@ -148,6 +151,7 @@ export const CR = [
         level: "9",
         initiative: "90",
         cardno: "503",
+        levelNo: 9,
     },
     {
         name: "low tide",
@@ -158,6 +162,7 @@ export const CR = [
         level: "9",
         initiative: "10",
         cardno: "504",
+        levelNo: 9,
     },
     {
         name: "mighty claws",
@@ -168,6 +173,7 @@ export const CR = [
         level: "1",
         initiative: "23",
         cardno: "484",
+        levelNo: 1,
     },
     {
         name: "overwhelming wave",
@@ -178,6 +184,7 @@ export const CR = [
         level: "1",
         initiative: "86",
         cardno: "474",
+        levelNo: 1,
     },
     {
         name: "pool of power",
@@ -188,6 +195,7 @@ export const CR = [
         level: "1",
         initiative: "41",
         cardno: "479",
+        levelNo: 1,
     },
     {
         name: "powerful pincer",
@@ -198,6 +206,7 @@ export const CR = [
         level: "6",
         initiative: "70",
         cardno: "497",
+        levelNo: 6,
     },
     {
         name: "rancid brine",
@@ -208,6 +217,7 @@ export const CR = [
         level: "1",
         initiative: "62",
         cardno: "476",
+        levelNo: 1,
     },
     {
         name: "rising flood",
@@ -218,6 +228,7 @@ export const CR = [
         level: "X",
         initiative: "49",
         cardno: "486",
+        levelNo: 1,
     },
     {
         name: "sharp chitin",
@@ -228,6 +239,7 @@ export const CR = [
         level: "1",
         initiative: "25",
         cardno: "477",
+        levelNo: 1,
     },
     {
         name: "shuck",
@@ -238,6 +250,7 @@ export const CR = [
         level: "3",
         initiative: "55",
         cardno: "491",
+        levelNo: 3,
     },
     {
         name: "skitter",
@@ -248,6 +261,7 @@ export const CR = [
         level: "1",
         initiative: "51",
         cardno: "480",
+        levelNo: 1,
     },
     {
         name: "smashing torrent",
@@ -258,6 +272,7 @@ export const CR = [
         level: "2",
         initiative: "79",
         cardno: "489",
+        levelNo: 2,
     },
     {
         name: "sodden soil",
@@ -268,6 +283,7 @@ export const CR = [
         level: "5",
         initiative: "17",
         cardno: "496",
+        levelNo: 5,
     },
     {
         name: "soft flesh",
@@ -278,6 +294,7 @@ export const CR = [
         level: "1",
         initiative: "75",
         cardno: "475",
+        levelNo: 1,
     },
     {
         name: "submerge",
@@ -288,6 +305,7 @@ export const CR = [
         level: "1",
         initiative: "68",
         cardno: "485",
+        levelNo: 1,
     },
     {
         name: "tidal blast",
@@ -298,6 +316,7 @@ export const CR = [
         level: "5",
         initiative: "71",
         cardno: "495",
+        levelNo: 5,
     },
     {
         name: "twilight grasp",
@@ -308,6 +327,7 @@ export const CR = [
         level: "6",
         initiative: "33",
         cardno: "498",
+        levelNo: 6,
     },
     {
         name: "undertow",
@@ -318,5 +338,6 @@ export const CR = [
         level: "X",
         initiative: "15",
         cardno: "487",
+        levelNo: 1,
     },
 ] as const;

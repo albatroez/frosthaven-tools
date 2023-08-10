@@ -45,7 +45,7 @@ export function Cards() {
     const availableCards = useAppSelector(selectAvailableCards);
     const level = useAppSelector(selectCurrentLevel);
     const sortType = useAppSelector(state => state.cards.sortType);
-    const filteredCards = availableCards.filter((card) => Number(card.level) <= level)
+    const filteredCards = availableCards.filter(card => Number(card.level) <= level);
     const sortedCards = sortAbilityCards(filteredCards, sortType);
 
     return (

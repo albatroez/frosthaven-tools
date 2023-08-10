@@ -1,15 +1,5 @@
 export const PC = [
     {
-        name: "pc-back",
-        points: 1026,
-        expansion: "Frosthaven",
-        image: "PC/fh-pc-back.png",
-        xws: "pcback",
-        level: "-",
-        initiative: "-",
-        cardno: "-",
-    },
-    {
         name: "blood ritual",
         points: 1027,
         expansion: "Frosthaven",
@@ -18,6 +8,7 @@ export const PC = [
         level: "1",
         initiative: "56",
         cardno: "306",
+        levelNo: 1,
     },
     {
         name: "burned at both ends",
@@ -28,6 +19,7 @@ export const PC = [
         level: "3",
         initiative: "30",
         cardno: "316",
+        levelNo: 3,
     },
     {
         name: "chained by despair",
@@ -38,6 +30,7 @@ export const PC = [
         level: "5",
         initiative: "15",
         cardno: "321",
+        levelNo: 5,
     },
     {
         name: "chained by spite",
@@ -48,6 +41,7 @@ export const PC = [
         level: "5",
         initiative: "15",
         cardno: "320",
+        levelNo: 5,
     },
     {
         name: "cleansing fire",
@@ -58,6 +52,7 @@ export const PC = [
         level: "1",
         initiative: "64",
         cardno: "309",
+        levelNo: 1,
     },
     {
         name: "delayed malady",
@@ -68,6 +63,7 @@ export const PC = [
         level: "X",
         initiative: "90",
         cardno: "311",
+        levelNo: 1,
     },
     {
         name: "down to the dirt",
@@ -78,6 +74,7 @@ export const PC = [
         level: "4",
         initiative: "39",
         cardno: "319",
+        levelNo: 4,
     },
     {
         name: "explosive wounds",
@@ -88,6 +85,7 @@ export const PC = [
         level: "1",
         initiative: "43",
         cardno: "308",
+        levelNo: 1,
     },
     {
         name: "hopelessness",
@@ -98,6 +96,7 @@ export const PC = [
         level: "6",
         initiative: "83",
         cardno: "322",
+        levelNo: 6,
     },
     {
         name: "infection purge",
@@ -108,6 +107,7 @@ export const PC = [
         level: "2",
         initiative: "45",
         cardno: "315",
+        levelNo: 2,
     },
     {
         name: "line of transference",
@@ -118,6 +118,7 @@ export const PC = [
         level: "1",
         initiative: "25",
         cardno: "302",
+        levelNo: 1,
     },
     {
         name: "mirrored misery",
@@ -128,6 +129,7 @@ export const PC = [
         level: "4",
         initiative: "72",
         cardno: "318",
+        levelNo: 4,
     },
     {
         name: "penance",
@@ -138,6 +140,7 @@ export const PC = [
         level: "7",
         initiative: "12",
         cardno: "325",
+        levelNo: 7,
     },
     {
         name: "phantom limb",
@@ -148,6 +151,7 @@ export const PC = [
         level: "6",
         initiative: "75",
         cardno: "323",
+        levelNo: 6,
     },
     {
         name: "pleasure in pain",
@@ -158,6 +162,7 @@ export const PC = [
         level: "X",
         initiative: "47",
         cardno: "313",
+        levelNo: 1,
     },
     {
         name: "redemption",
@@ -168,6 +173,7 @@ export const PC = [
         level: "8",
         initiative: "33",
         cardno: "328",
+        levelNo: 8,
     },
     {
         name: "reject the gift",
@@ -178,6 +184,7 @@ export const PC = [
         level: "7",
         initiative: "20",
         cardno: "324",
+        levelNo: 7,
     },
     {
         name: "reprisal",
@@ -188,6 +195,7 @@ export const PC = [
         level: "3",
         initiative: "70",
         cardno: "317",
+        levelNo: 3,
     },
     {
         name: "reversal of fate",
@@ -198,6 +206,7 @@ export const PC = [
         level: "2",
         initiative: "23",
         cardno: "314",
+        levelNo: 2,
     },
     {
         name: "scarred effigy",
@@ -208,6 +217,7 @@ export const PC = [
         level: "1",
         initiative: "19",
         cardno: "307",
+        levelNo: 1,
     },
     {
         name: "shared affliction",
@@ -218,6 +228,7 @@ export const PC = [
         level: "1",
         initiative: "61",
         cardno: "301",
+        levelNo: 1,
     },
     {
         name: "swift vengeance",
@@ -228,6 +239,7 @@ export const PC = [
         level: "1",
         initiative: "21",
         cardno: "310",
+        levelNo: 1,
     },
     {
         name: "the agony of others",
@@ -238,6 +250,7 @@ export const PC = [
         level: "1",
         initiative: "78",
         cardno: "304",
+        levelNo: 1,
     },
     {
         name: "the end of everything",
@@ -248,6 +261,7 @@ export const PC = [
         level: "9",
         initiative: "99",
         cardno: "329",
+        levelNo: 9,
     },
     {
         name: "transferred injury",
@@ -258,6 +272,7 @@ export const PC = [
         level: "1",
         initiative: "74",
         cardno: "303",
+        levelNo: 1,
     },
     {
         name: "unending torment",
@@ -268,6 +283,7 @@ export const PC = [
         level: "1",
         initiative: "29",
         cardno: "305",
+        levelNo: 1,
     },
     {
         name: "unstable effigy",
@@ -278,6 +294,7 @@ export const PC = [
         level: "X",
         initiative: "18",
         cardno: "312",
+        levelNo: 1,
     },
     {
         name: "wave of anguish",
@@ -288,6 +305,7 @@ export const PC = [
         level: "8",
         initiative: "68",
         cardno: "326",
+        levelNo: 8,
     },
     {
         name: "wracked with pain",
@@ -298,5 +316,6 @@ export const PC = [
         level: "8",
         initiative: "22",
         cardno: "327",
+        levelNo: 8,
     },
 ] as const;
