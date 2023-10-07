@@ -35,11 +35,11 @@ export const selectChosenCards = (state: RootState) => state.cards.chosenCards;
 // export const selectSortType = (state:RootState)
 // export const selectSortedCards = createSelector(selectAvailableCards, (cards))
 
-export const cardsSlice = createSlice({
+const cardsSlice = createSlice({
     name: "cards",
     initialState,
     reducers: {
-        setClass: (state, action: PayloadAction<CardsState["currentClass"]>) => {
+        setClass: (state, action: PayloadAction<ClassesEnum>) => {
             state.currentClass = action.payload;
             state.availableCards = abilityCards[action.payload];
             state.chosenCards = [];

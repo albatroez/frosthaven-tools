@@ -44,7 +44,7 @@ function ChosenCards() {
     const chosenCards = useAppSelector(selectChosenCards);
     const currentClass = useAppSelector(selectCurrentClass);
     return (
-        <div className='flex-wrap'>
+        <div className="flex-wrap">
             {chosenCards.map(card => (
                 <Card key={card.points} alt={`${capitalizeFirstWord(currentClass)} ${card.name}`} card={card} />
             ))}
@@ -72,7 +72,7 @@ export function Cards() {
             </select>
             <Level />
             <ChosenCards />
-            <div className='flex-wrap'>
+            <div className="flex-wrap">
                 {sortedCards.map(card => (
                     <Card key={card.points} alt={`${capitalizeFirstWord(currentClass)} ${card.name}`} card={card} />
                 ))}

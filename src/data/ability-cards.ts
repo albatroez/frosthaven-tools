@@ -22,4 +22,4 @@ export const abilityCards = {
 export type AbilityCards = typeof abilityCards;
 type classes = keyof AbilityCards;
 export type aCard = AbilityCards[classes][number];
-export type AbilityCard = Pick<aCard, keyof typeof BB[number]>;
+export type AbilityCard = Pick<aCard, keyof (typeof BB)[number]>;

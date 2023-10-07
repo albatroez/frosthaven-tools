@@ -12,7 +12,7 @@ export function ChooseClass() {
         console.log("class selected");
     };
     return (
-        <select onChange={selectClass} value={currentClass} className='text-3xl border-2' name='select-class'>
+        <select onChange={selectClass} value={currentClass} className="text-3xl border-2" name="select-class">
             {Object.entries(allClasses).map(([shortCode, { name }], index) => (
                 <option value={shortCode} key={index}>
                     {capitalizeFirstWord(name || shortCode)}
