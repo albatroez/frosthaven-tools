@@ -1,15 +1,18 @@
 import { Cards } from "./Cards";
-import { ChooseClass } from "./ChooseClass";
+import { ChooseClass } from "./header/ChooseClass";
+import { Settings } from "./header/Settings";
+
 
 function App() {
     return (
         <>
-            <div>
+            <header>
                 <ChooseClass />
-            </div>
-            <div>
+                <Settings />
+            </header>
+            <main>
                 <Cards />
-            </div>
+            </main>
         </>
     );
 }

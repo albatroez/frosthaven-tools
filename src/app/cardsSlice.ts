@@ -5,7 +5,7 @@ import { RootState } from "./store";
 
 interface CardsState {
     currentClass: ClassesEnum;
-    availableCards: AbilityCard[];
+    availableCards: readonly AbilityCard[];
     chosenCards: AbilityCard[];
     sortType: (typeof SORT_TYPES)[SortType];
     currentLevel: number;
@@ -22,7 +22,7 @@ export type SortType = keyof typeof SORT_TYPES;
 
 const initialState: CardsState = {
     currentClass: defaultClass,
-    availableCards: abilityCards.filter(el => el.image.startsWith(defaultClass) && el.level !== "-"),
+    availableCards: abilityCards[defaultClass],
     chosenCards: [],
     sortType: SORT_TYPES.LEVEL_ASC,
     currentLevel: 1,
@@ -31,6 +31,7 @@ const initialState: CardsState = {
 export const selectCurrentClass = (state: RootState) => state.cards.currentClass;
 export const selectAvailableCards = (state: RootState) => state.cards.availableCards;
 export const selectCurrentLevel = (state: RootState) => state.cards.currentLevel;
+export const selectChosenCards = (state: RootState) => state.cards.chosenCards;
 // export const selectSortType = (state:RootState)
 // export const selectSortedCards = createSelector(selectAvailableCards, (cards))
 
@@ -40,7 +41,8 @@ export const cardsSlice = createSlice({
     reducers: {
         setClass: (state, action: PayloadAction<CardsState["currentClass"]>) => {
             state.currentClass = action.payload;
-            state.availableCards = abilityCards.filter(el => el.image.startsWith(action.payload) && el.level !== "-");
+            state.availableCards = abilityCards[action.payload];
+            state.chosenCards = [];
         },
         setAvailableCards: (state, action) => {
             state.availableCards = action.payload;
@@ -54,9 +56,18 @@ export const cardsSlice = createSlice({
         setCurrentLevel: (state, action) => {
             state.currentLevel = action.payload;
         },
+        chooseCard: (state, action) => {
+            const index = state.chosenCards.findIndex(card => card.cardno === action.payload.cardno);
+            if (index !== -1) {
+                state.chosenCards.splice(index, 1);
+            } else {
+                state.chosenCards.push(action.payload);
+            }
+        },
     },
 });
 
-export const { setClass, setAvailableCards, setChosenCards, setSortType, setCurrentLevel } = cardsSlice.actions;
+export const { setClass, setAvailableCards, setChosenCards, setSortType, setCurrentLevel, chooseCard } =
+    cardsSlice.actions;
 
 export default cardsSlice.reducer;

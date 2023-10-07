@@ -1,8 +1,8 @@
-import { allClasses } from "./data/classes";
-import { capitalizeFirstWord } from "./utils/formatNames";
-import { useAppDispatch, useAppSelector } from "./app/hooks";
+import { allClasses } from "../data/classes";
+import { capitalizeFirstWord } from "../utils/formatNames";
+import { useAppDispatch, useAppSelector } from "../app/hooks";
 import { ChangeEvent } from "react";
-import { setClass } from "./app/cardsSlice";
+import { setClass } from "../app/cardsSlice";
 
 export function ChooseClass() {
     const currentClass = useAppSelector(state => state.cards.currentClass);

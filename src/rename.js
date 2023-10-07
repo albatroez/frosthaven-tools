@@ -1,6 +1,6 @@
-import { readdir, stat, rename, open, writeFile } from "fs/promises";
+import { readdir, rename, stat, writeFile } from "fs/promises";
 import path from "path";
-import { abilityCards } from "./data/ability-cards.js";
+// import { abilityCards } from "./data/ability-cards.js";
 
 async function renameFiles(directoryPath, parentDirName) {
     const files = await readdir(directoryPath);
@@ -27,6 +27,7 @@ const rootDirectory = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/
 // await renameFiles(rootDirectory);
 
 const dataPath = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/src/data/abilityCards";
+
 async function createClassFiles(directoryPath, source) {
     const names = await readdir(source);
 
@@ -59,6 +60,6 @@ async function copyNonDuplicates() {
     }
 }
 
-await copyNonDuplicates();
+// await copyNonDuplicates();
 
 // await createClassFiles(dataPath, rootDirectory);

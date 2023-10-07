@@ -4,6 +4,7 @@ import { useAppDispatch, useAppSelector } from "./app/hooks";
 import { AbilityCard } from "./data/ability-cards";
 import {
     selectAvailableCards,
+    selectChosenCards,
     selectCurrentClass,
     selectCurrentLevel,
     setCurrentLevel,
@@ -39,6 +40,18 @@ function sortAbilityCards(cards: AbilityCard[], sortType: string): AbilityCard[]
     }
 }
 
+function ChosenCards() {
+    const chosenCards = useAppSelector(selectChosenCards);
+    const currentClass = useAppSelector(selectCurrentClass);
+    return (
+        <div className='flex-wrap'>
+            {chosenCards.map(card => (
+                <Card key={card.points} alt={`${capitalizeFirstWord(currentClass)} ${card.name}`} card={card} />
+            ))}
+        </div>
+    );
+}
+
 export function Cards() {
     const dispatch = useAppDispatch();
     const currentClass = useAppSelector(selectCurrentClass);
@@ -58,6 +71,7 @@ export function Cards() {
                 ))}
             </select>
             <Level />
+            <ChosenCards />
             <div className='flex-wrap'>
                 {sortedCards.map(card => (
                     <Card key={card.points} alt={`${capitalizeFirstWord(currentClass)} ${card.name}`} card={card} />
