@@ -12,7 +12,7 @@ export function Card({ card, alt, order }: { card: AbilityCard; alt: string; ord
             src={card.image}
             srcSet={`${card.image} ${100/cardsSize}x`}
             alt={`${alt} ${card.name}`}
-            className={`m-2.5 inline-block`}
+            className={`m-1 inline-block`}
             style={{ order: order }}
             onClick={() => dispatch(chooseCard(card))}
         />

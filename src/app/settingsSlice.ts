@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "./store";
 
 const initialState = {
-    cardsSize: 100,
+    cardsSize: 60,
     spoilers: {},
 };
 
