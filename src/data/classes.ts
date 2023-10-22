@@ -1,5 +1,5 @@
 export const allClasses = {
-    BB: { name: "Blinkblade", maxCards: 10, spoiler: false},
+    BB: { name: "Blinkblade", maxCards: 10, spoiler: false },
     BN: { name: "Banner Spear", maxCards: 10, spoiler: false },
     BO: { name: "Boneshaper", maxCards: 12, spoiler: false },
     CR: { name: "Crashing Tide", maxCards: 12, spoiler: true },
@@ -17,5 +17,14 @@ export const allClasses = {
     SH: { name: "Shattersong", maxCards: 10, spoiler: true },
     TA: { name: "Trapper", maxCards: 9, spoiler: true },
 } as const;
+
+export const classShortCodes = Object.keys(allClasses);
+
+export const spoilerClasses = Object.entries(allClasses).reduce((acc, [key, props]) => {
+    if (props.spoiler) {
+        acc.push(key);
+    }
+    return acc;
+}, []);
 
 export type ClassesEnum = keyof typeof allClasses;

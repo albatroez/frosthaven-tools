@@ -2,6 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { AbilityCard, abilityCards, aCard } from "../data/ability-cards";
 import { ClassesEnum } from "../data/classes";
 import { RootState } from "./store";
+import { getCardsFromLocalStorage } from "./localStorage";
 
 interface CardsState {
     currentClass: ClassesEnum;
@@ -11,7 +12,7 @@ interface CardsState {
     currentLevel: number;
 }
 
-const defaultClass = "PY";
+export const defaultClass = "PY";
 export const SORT_TYPES = {
     INITIATIVE_ASC: "initiativeAsc",
     INITIATIVE_DESC: "initiativeDesc",
@@ -20,7 +21,7 @@ export const SORT_TYPES = {
 } as const;
 export type SortType = keyof typeof SORT_TYPES;
 
-const initialState: CardsState = {
+export const initialState: CardsState = {
     currentClass: defaultClass,
     availableCards: abilityCards[defaultClass],
     chosenCards: [],
@@ -42,7 +43,7 @@ const cardsSlice = createSlice({
         setClass: (state, action: PayloadAction<ClassesEnum>) => {
             state.currentClass = action.payload;
             state.availableCards = abilityCards[action.payload];
-            state.chosenCards = [];
+            state.chosenCards = getCardsFromLocalStorage(action.payload);
         },
         setAvailableCards: (state, action) => {
             state.availableCards = action.payload;

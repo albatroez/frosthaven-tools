@@ -1,11 +1,12 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "./store";
 
-const initialState = {
+export const initialState = {
     cardsSize: 60,
     spoilers: {},
 };
 
+export const selectSettings = (state: RootState) => state.settings;
 export const selectCardSize = (state: RootState) => state.settings.cardsSize;
 
 const settingsSlice = createSlice({

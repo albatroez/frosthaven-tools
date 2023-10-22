@@ -1,5 +1,6 @@
 import { readdir, rename, stat, writeFile } from "fs/promises";
 import path from "path";
+import { allClasses } from "./data/classes.js";
 // import { abilityCards } from "./data/ability-cards.js";
 
 async function renameFiles(directoryPath, parentDirName) {
@@ -12,8 +13,17 @@ async function renameFiles(directoryPath, parentDirName) {
         if (fileStat.isDirectory()) {
             await renameFiles(filePath, file);
         } else {
-            if (file.includes("back.png")) {
-                const newName = "fh-" + parentDirName.toLowerCase() + "-back.png";
+            if (file.includes("icon.png")) {
+                const code = Object.entries(allClasses).reduce((acc, [key, curr]) => {
+                    if (!acc) {
+                        const s = curr.name.toLowerCase().split(' ').join('-');
+                        if (file.includes(s)) {
+                            return key;
+                        }
+                    }
+                    return acc;
+                }, '')
+                const newName = "fh-" + code + "-icon.png";
                 const newPath = path.join(directoryPath, newName);
 
                 await rename(filePath, newPath);
@@ -23,8 +33,8 @@ async function renameFiles(directoryPath, parentDirName) {
     }
 }
 
-const rootDirectory = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/public";
-// await renameFiles(rootDirectory);
+const rootDirectory = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/public/icons";
+await renameFiles(rootDirectory);
 
 const dataPath = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/src/data/abilityCards";
 
