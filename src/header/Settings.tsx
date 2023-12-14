@@ -1,6 +1,6 @@
 import { useAppDispatch, useAppSelector } from "../app/hooks";
-import { selectSettings, setCardsSize } from "../app/settingsSlice";
-import { spoilerClasses } from "../data/classes";
+import { selectSettings, setCardsSize, toggleSpoiler } from "../app/settingsSlice";
+import { ClassesEnum, spoilerClasses } from "../data/classes";
 
 export function Settings() {
     const dispatch = useAppDispatch();
@@ -8,10 +8,10 @@ export function Settings() {
 
     return (
         <div className="ml-auto">
-            <div className="flex">
-                {spoilerClasses.map(code => (
-                    <Icon code={code} />
-                ))}
+            <div className="flex gap-x-1">
+                    {spoilerClasses.map(code => (
+                        <Icon code={code} key={`${code}-icon`} />
+                    ))}
             </div>
             <label htmlFor="cardsSize">Choose the size of cards</label>
             <input
@@ -27,9 +27,30 @@ export function Settings() {
 }
 
 type IconProps = {
-    code: string;
+    code: ClassesEnum;
 };
 
 function Icon({ code }: IconProps) {
-    return <img srcSet={`icons/fh-${code}-icon.png 20x`} alt={`${code}-icon`} className="m-0.5" />;
+    const { spoilers } = useAppSelector(selectSettings);
+    const dispatch = useAppDispatch();
+    const checked = spoilers[code];
+    const id = `${code}-checkbox`;
+    const style = checked ? "" : "";
+
+    return (
+            <label htmlFor={id} className={`p-1`}>
+                <input
+                    type="checkbox"
+                    id={id}
+                    className={`hidden peer`}
+                    defaultChecked={checked}
+                    onClick={() => dispatch(toggleSpoiler(code))}
+                />
+                <img
+                    srcSet={`icons/fh-${code}-icon.png 20x`}
+                    alt={`${code}-icon`}
+                    className={"border-2 border-transparent peer-checked:border-blue-800"}
+                />
+            </label>
+    );
 }

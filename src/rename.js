@@ -1,6 +1,6 @@
 import { readdir, rename, stat, writeFile } from "fs/promises";
 import path from "path";
-import { allClasses } from "./data/classes.js";
+// import { allClasses } from "./data/classes.js";
 // import { abilityCards } from "./data/ability-cards.js";
 
 async function renameFiles(directoryPath, parentDirName) {
@@ -34,7 +34,7 @@ async function renameFiles(directoryPath, parentDirName) {
 }
 
 const rootDirectory = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/public/icons";
-await renameFiles(rootDirectory);
+
 
 const dataPath = "/Users/jzielinski/IdeaProjects/personal/frosthaven-tools/src/data/abilityCards";
 

@@ -10,11 +10,13 @@ export function Card({ card, alt, order }: { card: AbilityCard; alt: string; ord
         <img
             // width={`${cardsSize}%`}
             // src={card.image}
+            draggable={"true"}
             srcSet={`${card.image} ${100/cardsSize}x`}
             alt={`${alt} ${card.name}`}
-            className={`m-1 inline-block`}
+            className={`m-1 inline-block cursor-move`}
             style={{ order: order }}
             onClick={() => dispatch(chooseCard(card))}
         />
     );
 }
+
